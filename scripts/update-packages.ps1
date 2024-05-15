@@ -7,6 +7,8 @@ param (
 function Get-Packages {
   param (
   )
+  Write-Host "Getting packages from Nuget"
+
   $repositoryUrl = 'https://github.com/dailydevops'
   $queryUrl = 'https://api-v2v3search-0.nuget.org/query?q=NetEvolve'
   $response = Invoke-WebRequest -Uri $queryUrl
@@ -73,6 +75,7 @@ function Update-Readme {
     [Parameter(Mandatory = $true)]
     [string] $packagesContent
   )
+  Write-Host "Updating README files"
 
   $tagStart = '<!-- packages:start -->'
   $tagStartLength = $tagStart.Length
