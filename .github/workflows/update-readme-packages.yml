@@ -26,6 +26,7 @@ jobs:
       id: pr
       uses: peter-evans/create-pull-request@v6.0.5
       with:
+        path: .
         token: ${{ secrets.GITHUB_TOKEN }}
         commit-message: 'docs: Update nuget packages in README.md'
         title: 'docs: Update nuget packages in README.md'
