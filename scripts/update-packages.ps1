@@ -96,6 +96,7 @@ function Update-Readme {
 
     $readmeContent = $readmeContent.Replace($readmeContent.Substring($startIndex, $endIndex - $startIndex), $packagesContent)
 
+    Write-Host "Updating $readmeFile.FullName"
     Set-Content -Path $readmeFile.FullName -Value $readmeContent -NoNewline
   }
 }
