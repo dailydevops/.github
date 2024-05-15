@@ -75,15 +75,16 @@ function Update-Readme {
     [Parameter(Mandatory = $true)]
     [string] $packagesContent
   )
-  Write-Host "Updating README files"
+  Write-Host "Updating README files for $workingDirectoy"
 
   $tagStart = '<!-- packages:start -->'
   $tagStartLength = $tagStart.Length
   $tagEnd = '<!-- packages:end -->'
 
-  $readmeFiles = Get-ChildItem -Path $workingDirectory -Filter 'README.*' -Recurse
+  $readmeFiles = Get-ChildItem -Path $workingDirectory -Filter 'README.*' -Recurse -Force
 
   foreach ($readmeFile in $readmeFiles) {
+    Write-Host "Verifying $($readmeFile.FullName)"
     $readmeContent = Get-Content -Path $readmeFile.FullName -Raw
 
     $startIndex = $readmeContent.IndexOf($tagStart)
@@ -99,7 +100,7 @@ function Update-Readme {
 
     $readmeContent = $readmeContent.Replace($readmeContent.Substring($startIndex, $endIndex - $startIndex), $packagesContent)
 
-    Write-Host "Updating $readmeFile.FullName"
+    Write-Host "Updating $($readmeFile.FullName)"
     Set-Content -Path $readmeFile.FullName -Value $readmeContent -NoNewline
   }
 }
