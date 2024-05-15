@@ -19,7 +19,7 @@ jobs:
 
     - name: Update packages in README.md
       run: |
-        ./scripts/update-packages.ps1 -WorkingDirectory ${{ github.workspace }}
+        ./scripts/update-packages.ps1 -WorkingDirectory .
       shell: pwsh
 
     - name: Create Pull Request
