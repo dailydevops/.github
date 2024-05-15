@@ -30,8 +30,7 @@ function Get-Packages {
     <tr>
       <td><b>Package Name</b></td>
       <td><b>Repository</b></td>
-      <td><b>Current Version</b></td>
-      <td><b>Downloads</b></td>
+      <td><b>Details</b></td>
     </tr>
   </thead>
   <tbody>
@@ -49,11 +48,15 @@ function Get-Packages {
     <tr>
       <td><a href="https://www.nuget.org/packages/$($package.id)/"><b>$($package.title)</b></a></td>
       <td><a href="$($package.projectUrl)">$($package.projectUrl)</a></td>
-      <td><a href="https://www.nuget.org/packages/$($package.id)/"><img src="https://img.shields.io/nuget/v/$($package.id)?logo=nuget" alt="Nuget"></a></td>
-      <td><a href="https://www.nuget.org/packages/$($package.id)/"><img src="https://img.shields.io/nuget/dt/$($package.id)?logo=nuget" alt="Nuget"></a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/$($package.id)/">
+          <img src="https://img.shields.io/nuget/dt/$($package.id)?logo=nuget" alt="$($package.id) Downloads" />
+          <img src="https://img.shields.io/nuget/v/$($package.id)?logo=nuget" alt="$($package.id) Version" />
+        </a>
+      </td>
     </tr>
     <tr>
-      <td colspan=4>$($description)</td>
+      <td colspan=3>$($description)</td>
     </tr>
 
 "@
