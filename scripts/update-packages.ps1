@@ -10,7 +10,7 @@ function Get-Packages {
   Write-Host "Getting packages from Nuget"
 
   $repositoryUrl = 'https://github.com/dailydevops'
-  $queryUrl = 'https://api-v2v3search-0.nuget.org/query?q=NetEvolve'
+  $queryUrl = 'https://api-v2v3search-0.nuget.org/query?q=NetEvolve&take=1000'
   $response = Invoke-WebRequest -Uri $queryUrl
   if ($response.statuscode -ne 200) {
     Write-Error "Failed to get packages from $repositoryUrl"
@@ -38,7 +38,7 @@ function Get-Packages {
 '@
 
   foreach ($package in ($data.data | Sort-Object -Property id)) {
-    if (-Not $package.projectUrl.StartsWith($repositoryUrl)) {
+    if (-Not $package.id.StartsWith("NetEvolve.")) {
       continue
     }
 

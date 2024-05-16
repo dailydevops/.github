@@ -1,10 +1,17 @@
 name: Update packages in README.md
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/update-packages.ps1
+
   schedule:
     # Run every day at 4:21 AM UTC
     # https://crontab.guru/#21_4_*_*_*
     - cron: '21 4 * * *'
+
   workflow_dispatch:
 
 jobs:
