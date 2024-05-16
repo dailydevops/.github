@@ -30,6 +30,19 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td colspan=3>A library that provides compatible `ThrowIf` methods for .NET / C# for older runtimes.</td>
     </tr>
     <tr>
+      <td><a href="https://www.nuget.org/packages/NetEvolve.Extensions.Hosting.WinForms/"><b>NetEvolve.Extensions.Hosting.WinForms</b></a></td>
+      <td><a href="https://github.com/dailydevops/extensions.hosting.winforms">https://github.com/dailydevops/extensions.hosting.winforms</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Hosting.WinForms/">
+          <img src="https://img.shields.io/nuget/dt/NetEvolve.Extensions.Hosting.WinForms?logo=nuget" alt="NetEvolve.Extensions.Hosting.WinForms Downloads" />
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Extensions.Hosting.WinForms?logo=nuget" alt="NetEvolve.Extensions.Hosting.WinForms Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3>.NET Hosting infrastructure for Windows Forms.</td>
+    </tr>
+    <tr>
       <td><a href="https://www.nuget.org/packages/NetEvolve.Extensions.MSTest/"><b>NetEvolve.Extensions.MSTest</b></a></td>
       <td><a href="https://github.com/dailydevops/extensions.test">https://github.com/dailydevops/extensions.test</a></td>
       <td>
@@ -136,6 +149,32 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td colspan=3>Contains abstract implementations for the `NetEvolve.HealthChecks`.</td>
     </tr>
     <tr>
+      <td><a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.Kafka/"><b>NetEvolve.HealthChecks.Apache.Kafka</b></a></td>
+      <td><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.Kafka/">
+          <img src="https://img.shields.io/nuget/dt/NetEvolve.HealthChecks.Apache.Kafka?logo=nuget" alt="NetEvolve.HealthChecks.Apache.Kafka Downloads" />
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Apache.Kafka?logo=nuget" alt="NetEvolve.HealthChecks.Apache.Kafka Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3>Contains HealthChecks for Apache Kafka, based on the NuGet package `Confluent.Kafka`.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.ClickHouse/"><b>NetEvolve.HealthChecks.ClickHouse</b></a></td>
+      <td><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.ClickHouse/">
+          <img src="https://img.shields.io/nuget/dt/NetEvolve.HealthChecks.ClickHouse?logo=nuget" alt="NetEvolve.HealthChecks.ClickHouse Downloads" />
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.ClickHouse?logo=nuget" alt="NetEvolve.HealthChecks.ClickHouse Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3>Contains HealthChecks for ClickHouse, based on the nuget package `ClickHouse.Client`.</td>
+    </tr>
+    <tr>
       <td><a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Dapr/"><b>NetEvolve.HealthChecks.Dapr</b></a></td>
       <td><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></td>
       <td>
@@ -147,6 +186,32 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td colspan=3>Contains HealthChecks for Dapr, based on the nuget package `Dapr.Client`.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MySql/"><b>NetEvolve.HealthChecks.MySql</b></a></td>
+      <td><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MySql/">
+          <img src="https://img.shields.io/nuget/dt/NetEvolve.HealthChecks.MySql?logo=nuget" alt="NetEvolve.HealthChecks.MySql Downloads" />
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.MySql?logo=nuget" alt="NetEvolve.HealthChecks.MySql Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3>Contains HealthChecks for MySql, based on the nuget package `MySql.Data`.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MySql.Connector/"><b>NetEvolve.HealthChecks.MySql.Connector</b></a></td>
+      <td><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MySql.Connector/">
+          <img src="https://img.shields.io/nuget/dt/NetEvolve.HealthChecks.MySql.Connector?logo=nuget" alt="NetEvolve.HealthChecks.MySql.Connector Downloads" />
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.MySql.Connector?logo=nuget" alt="NetEvolve.HealthChecks.MySql.Connector Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3>Contains HealthChecks for MySql, based on the nuget package `MySqlConnector`.</td>
     </tr>
     <tr>
       <td><a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Npgsql/"><b>NetEvolve.HealthChecks.Npgsql</b></a></td>
@@ -175,6 +240,32 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td colspan=3>Contains HealthChecks for Oracle Databases, based on the nuget package `Oracle.ManagedDataAccess.Core`.</td>
     </tr>
     <tr>
+      <td><a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Redpanda/"><b>NetEvolve.HealthChecks.Redpanda</b></a></td>
+      <td><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Redpanda/">
+          <img src="https://img.shields.io/nuget/dt/NetEvolve.HealthChecks.Redpanda?logo=nuget" alt="NetEvolve.HealthChecks.Redpanda Downloads" />
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Redpanda?logo=nuget" alt="NetEvolve.HealthChecks.Redpanda Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3>Contains HealthChecks for Redpanda, based on the NuGet package `Confluent.Kafka`. This is a temporary measure; if a dedicated Redpanda client is provided in the future, we will use it immediately.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlEdge/"><b>NetEvolve.HealthChecks.SqlEdge</b></a></td>
+      <td><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlEdge/">
+          <img src="https://img.shields.io/nuget/dt/NetEvolve.HealthChecks.SqlEdge?logo=nuget" alt="NetEvolve.HealthChecks.SqlEdge Downloads" />
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.SqlEdge?logo=nuget" alt="NetEvolve.HealthChecks.SqlEdge Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3>Contains HealthChecks for SqlEdge, based on the nuget package `Microsoft.Data.SqlClient`.</td>
+    </tr>
+    <tr>
       <td><a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SQLite/"><b>NetEvolve.HealthChecks.SQLite</b></a></td>
       <td><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></td>
       <td>
@@ -201,6 +292,19 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td colspan=3>Contains HealthChecks for Microsoft SqlServer, based on the nuget package `Microsoft.Data.SqlClient`.</td>
     </tr>
     <tr>
+      <td><a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlServer.Legacy/"><b>NetEvolve.HealthChecks.SqlServer.Legacy</b></a></td>
+      <td><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlServer.Legacy/">
+          <img src="https://img.shields.io/nuget/dt/NetEvolve.HealthChecks.SqlServer.Legacy?logo=nuget" alt="NetEvolve.HealthChecks.SqlServer.Legacy Downloads" />
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.SqlServer.Legacy?logo=nuget" alt="NetEvolve.HealthChecks.SqlServer.Legacy Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3>Contains HealthChecks for Microsoft SqlServer, based on the nuget package `System.Data.SqlClient`.</td>
+    </tr>
+    <tr>
       <td><a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Abstractions/"><b>NetEvolve.Http.Correlation.Abstractions</b></a></td>
       <td><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></td>
       <td>
@@ -225,6 +329,19 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td colspan=3>Implementation of AspNetCore middleware to use Http.Correlation. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.HttpClient/"><b>NetEvolve.Http.Correlation.HttpClient</b></a></td>
+      <td><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.HttpClient/">
+          <img src="https://img.shields.io/nuget/dt/NetEvolve.Http.Correlation.HttpClient?logo=nuget" alt="NetEvolve.Http.Correlation.HttpClient Downloads" />
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Http.Correlation.HttpClient?logo=nuget" alt="NetEvolve.Http.Correlation.HttpClient Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3>Implementation of Http correlation handler to forward CorrelationId. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</td>
     </tr>
     <tr>
       <td><a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.TestGenerator/"><b>NetEvolve.Http.Correlation.TestGenerator</b></a></td>
