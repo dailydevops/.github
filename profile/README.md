@@ -357,6 +357,36 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td colspan=3>Implementation of an IHttpCorrelationIdProvider for test cases. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</td>
     </tr>
     <tr>
+      <td><a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Ulid/"><b>NetEvolve.Http.Correlation.Ulid</b></a></td>
+      <td><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Ulid/">
+          <img src="https://img.shields.io/nuget/dt/NetEvolve.Http.Correlation.Ulid?logo=nuget" alt="NetEvolve.Http.Correlation.Ulid Downloads" />
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Http.Correlation.Ulid?logo=nuget" alt="NetEvolve.Http.Correlation.Ulid Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3>Implementation of an IHttpCorrelationIdProvider for test cases. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.nuget.org/packages/NetEvolve.Logging.Abstractions/"><b>NetEvolve.Logging.Abstractions</b></a></td>
+      <td><a href="https://github.com/dailydevops/logging.abstractions.git">https://github.com/dailydevops/logging.abstractions.git</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Logging.Abstractions/">
+          <img src="https://img.shields.io/nuget/dt/NetEvolve.Logging.Abstractions?logo=nuget" alt="NetEvolve.Logging.Abstractions Downloads" />
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Logging.Abstractions?logo=nuget" alt="NetEvolve.Logging.Abstractions Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3>Contains several abstractions for logging, based on the nuget package `Microsoft.Extensions.Logging.Abstractions`.
+
+      - `LoggedMessage` represents a message that was logged.
+      - `NullExternalScopeProvider` is a `IExternalScopeProvider` that does nothing.
+      - `NullScope` is a `IDisposable` that does nothing.</td>
+    </tr>
+    <tr>
       <td><a href="https://www.nuget.org/packages/NetEvolve.SequentialGuid/"><b>NetEvolve.SequentialGuid</b></a></td>
       <td><a href="https://github.com/dailydevops/sequentialguid">https://github.com/dailydevops/sequentialguid</a></td>
       <td>
