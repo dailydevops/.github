@@ -29,8 +29,8 @@ function Get-Packages {
   <thead>
     <tr>
       <td><b>Package Name</b></td>
-      <td><b>Repository</b></td>
-      <td><b>Details</b></td>
+      <td><b>Downloads</b></td>
+      <td><b>Version</b></td>
     </tr>
   </thead>
   <tbody>
