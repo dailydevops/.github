@@ -46,19 +46,21 @@ function Get-Packages {
 
     $result += @"
     <tr>
-      <td><a href="https://www.nuget.org/packages/$($package.id)/"><b>$($package.title)</b></a></td>
-      <td><a href="$($package.projectUrl)">$($package.projectUrl)</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/$($package.id)/"><b>$($package.title)</b></a><br/>
+        <sup><a href="$($package.projectUrl)">$($package.projectUrl)</a></sup>
+      </td>
+      <td>
+      <a href="https://www.nuget.org/packages/$($package.id)/">
+        <img src="https://img.shields.io/nuget/dt/$($package.id)?logo=nuget" alt="$($package.id) Downloads" />
+      </a>
+      </td>
       <td>
         <a href="https://www.nuget.org/packages/$($package.id)/">
-          <img src="https://img.shields.io/nuget/dt/$($package.id)?logo=nuget" alt="$($package.id) Downloads" />
           <img src="https://img.shields.io/nuget/v/$($package.id)?logo=nuget" alt="$($package.id) Version" />
         </a>
       </td>
     </tr>
-    <tr>
-      <td colspan=3>$($description)</td>
-    </tr>
-
 "@
   }
 
