@@ -42,8 +42,6 @@ function Get-Packages {
       continue
     }
 
-    $description = $package.description;
-
     $result += @"
     <tr>
       <td>
