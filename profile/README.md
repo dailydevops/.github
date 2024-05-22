@@ -367,7 +367,7 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       </td>
     </tr>
     <tr>
-      <td colspan=3>Implementation of an IHttpCorrelationIdProvider for test cases. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</td>
+      <td colspan=3>Implementation of an IHttpCorrelationIdProvider based on NuGet package `Ulid`.</td>
     </tr>
     <tr>
       <td><a href="https://www.nuget.org/packages/NetEvolve.Logging.Abstractions/"><b>NetEvolve.Logging.Abstractions</b></a></td>
@@ -385,6 +385,19 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       - `LoggedMessage` represents a message that was logged.
       - `NullExternalScopeProvider` is a `IExternalScopeProvider` that does nothing.
       - `NullScope` is a `IDisposable` that does nothing.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.nuget.org/packages/NetEvolve.Logging.XUnit/"><b>NetEvolve.Logging.XUnit</b></a></td>
+      <td><a href="https://github.com/dailydevops/logging.xunit.git">https://github.com/dailydevops/logging.xunit.git</a></td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Logging.XUnit/">
+          <img src="https://img.shields.io/nuget/dt/NetEvolve.Logging.XUnit?logo=nuget" alt="NetEvolve.Logging.XUnit Downloads" />
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Logging.XUnit?logo=nuget" alt="NetEvolve.Logging.XUnit Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=3>Extensions for `ILogger` implementations to log messages to xUnit test output.</td>
     </tr>
     <tr>
       <td><a href="https://www.nuget.org/packages/NetEvolve.SequentialGuid/"><b>NetEvolve.SequentialGuid</b></a></td>
