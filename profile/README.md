@@ -6,7 +6,7 @@ Welcome to our GitHub profile! We are a bunch of developers who love to share ou
 
 We try to keep our packages as simple as possible, focusing on a single task or a small set of related tasks. This way, you can easily integrate them into your projects as accelerators or building blocks.
 
-<!-- packages:start -->
+<!-- packages:start --><div align="center">
 <table>
   <thead>
     <tr>
@@ -468,4 +468,4 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       </td>
     </tr>  </tbody>
 </table>
-<!-- packages:end -->
+</div><!-- packages:end -->
