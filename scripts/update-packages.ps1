@@ -24,6 +24,7 @@ function Get-Packages {
   }
 
   $result = @'
+
 <div align="center">
 <table>
   <thead>
@@ -50,15 +51,16 @@ function Get-Packages {
       </td>
       <td>
       <a href="https://www.nuget.org/packages/$($package.id)/">
-        <img src="https://img.shields.io/nuget/dt/$($package.id)?logo=nuget" alt="$($package.id) Downloads" />
+        <img src="https://img.shields.io/nuget/dt/$($package.id)?logo=nuget&style=for-the-badge" alt="$($package.id) Downloads" />
       </a>
       </td>
       <td>
         <a href="https://www.nuget.org/packages/$($package.id)/">
-          <img src="https://img.shields.io/nuget/v/$($package.id)?logo=nuget" alt="$($package.id) Version" />
+          <img src="https://img.shields.io/nuget/v/$($package.id)?logo=nuget&style=for-the-badge" alt="$($package.id) Version" />
         </a>
       </td>
     </tr>
+
 "@
   }
 
