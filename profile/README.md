@@ -235,6 +235,54 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Blobs/"><b>NetEvolve.HealthChecks.Azure.Blobs</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup>
+      </td>
+      <td>
+      <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Blobs/">
+        <img src="https://img.shields.io/nuget/dt/NetEvolve.HealthChecks.Azure.Blobs?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.Blobs Downloads" />
+      </a>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Blobs/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.Blobs?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.Blobs Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Queues/"><b>NetEvolve.HealthChecks.Azure.Queues</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup>
+      </td>
+      <td>
+      <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Queues/">
+        <img src="https://img.shields.io/nuget/dt/NetEvolve.HealthChecks.Azure.Queues?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.Queues Downloads" />
+      </a>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Queues/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.Queues?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.Queues Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Tables/"><b>NetEvolve.HealthChecks.Azure.Tables</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup>
+      </td>
+      <td>
+      <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Tables/">
+        <img src="https://img.shields.io/nuget/dt/NetEvolve.HealthChecks.Azure.Tables?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.Tables Downloads" />
+      </a>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Tables/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.Tables?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.Tables Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.ClickHouse/"><b>NetEvolve.HealthChecks.ClickHouse</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup>
       </td>
