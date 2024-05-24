@@ -379,6 +379,22 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Redis/"><b>NetEvolve.HealthChecks.Redis</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup>
+      </td>
+      <td>
+      <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Redis/">
+        <img src="https://img.shields.io/nuget/dt/NetEvolve.HealthChecks.Redis?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Redis Downloads" />
+      </a>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Redis/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Redis?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Redis Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Redpanda/"><b>NetEvolve.HealthChecks.Redpanda</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup>
       </td>
@@ -550,6 +566,22 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Logging.Abstractions/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.Logging.Abstractions?logo=nuget&style=for-the-badge" alt="NetEvolve.Logging.Abstractions Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Logging.Measurement/"><b>NetEvolve.Logging.Measurement</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.logging.measurement.git">https://github.com/dailydevops/extensions.logging.measurement.git</a></sup>
+      </td>
+      <td>
+      <a href="https://www.nuget.org/packages/NetEvolve.Logging.Measurement/">
+        <img src="https://img.shields.io/nuget/dt/NetEvolve.Logging.Measurement?logo=nuget&style=for-the-badge" alt="NetEvolve.Logging.Measurement Downloads" />
+      </a>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Logging.Measurement/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Logging.Measurement?logo=nuget&style=for-the-badge" alt="NetEvolve.Logging.Measurement Version" />
         </a>
       </td>
     </tr>
