@@ -171,6 +171,22 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FluentValue/"><b>NetEvolve.FluentValue</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/fluentvalue.git">https://github.com/dailydevops/fluentvalue.git</a></sup>
+      </td>
+      <td>
+      <a href="https://www.nuget.org/packages/NetEvolve.FluentValue/">
+        <img src="https://img.shields.io/nuget/dt/NetEvolve.FluentValue?logo=nuget&style=for-the-badge" alt="NetEvolve.FluentValue Downloads" />
+      </a>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FluentValue/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.FluentValue?logo=nuget&style=for-the-badge" alt="NetEvolve.FluentValue Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Guard/"><b>NetEvolve.Guard</b></a><br/>
         <sup><a href="https://github.com/dailydevops/guard">https://github.com/dailydevops/guard</a></sup>
       </td>
