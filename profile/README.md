@@ -588,7 +588,7 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     <tr>
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Logging.Measurement/"><b>NetEvolve.Logging.Measurement</b></a><br/>
-        <sup><a href="https://github.com/dailydevops/extensions.logging.measurement.git">https://github.com/dailydevops/extensions.logging.measurement.git</a></sup>
+        <sup><a href="https://github.com/dailydevops/extensions.logging.measurement">https://github.com/dailydevops/extensions.logging.measurement</a></sup>
       </td>
       <td>
       <a href="https://www.nuget.org/packages/NetEvolve.Logging.Measurement/">
