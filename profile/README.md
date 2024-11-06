@@ -75,6 +75,22 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Data/"><b>NetEvolve.Extensions.Data</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.data.git">https://github.com/dailydevops/extensions.data.git</a></sup>
+      </td>
+      <td>
+      <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Data/">
+        <img src="https://img.shields.io/nuget/dt/NetEvolve.Extensions.Data?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.Data Downloads" />
+      </a>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Data/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Extensions.Data?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.Data Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Hosting.WinForms/"><b>NetEvolve.Extensions.Hosting.WinForms</b></a><br/>
         <sup><a href="https://github.com/dailydevops/extensions.hosting.winforms">https://github.com/dailydevops/extensions.hosting.winforms</a></sup>
       </td>
