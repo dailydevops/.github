@@ -75,6 +75,38 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Defaults/"><b>NetEvolve.Defaults</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/defaults">https://github.com/dailydevops/defaults</a></sup>
+      </td>
+      <td>
+      <a href="https://www.nuget.org/packages/NetEvolve.Defaults/">
+        <img src="https://img.shields.io/nuget/dt/NetEvolve.Defaults?logo=nuget&style=for-the-badge" alt="NetEvolve.Defaults Downloads" />
+      </a>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Defaults/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Defaults?logo=nuget&style=for-the-badge" alt="NetEvolve.Defaults Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Defaults.Analyzer/"><b>NetEvolve.Defaults.Analyzer</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/defaults">https://github.com/dailydevops/defaults</a></sup>
+      </td>
+      <td>
+      <a href="https://www.nuget.org/packages/NetEvolve.Defaults.Analyzer/">
+        <img src="https://img.shields.io/nuget/dt/NetEvolve.Defaults.Analyzer?logo=nuget&style=for-the-badge" alt="NetEvolve.Defaults.Analyzer Downloads" />
+      </a>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Defaults.Analyzer/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Defaults.Analyzer?logo=nuget&style=for-the-badge" alt="NetEvolve.Defaults.Analyzer Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Data/"><b>NetEvolve.Extensions.Data</b></a><br/>
         <sup><a href="https://github.com/dailydevops/extensions.data.git">https://github.com/dailydevops/extensions.data.git</a></sup>
       </td>
