@@ -219,6 +219,22 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.XUnit.V3/"><b>NetEvolve.Extensions.XUnit.V3</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.test">https://github.com/dailydevops/extensions.test</a></sup>
+      </td>
+      <td>
+      <a href="https://www.nuget.org/packages/NetEvolve.Extensions.XUnit.V3/">
+        <img src="https://img.shields.io/nuget/dt/NetEvolve.Extensions.XUnit.V3?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.XUnit.V3 Downloads" />
+      </a>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.XUnit.V3/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Extensions.XUnit.V3?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.XUnit.V3 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.FluentValue/"><b>NetEvolve.FluentValue</b></a><br/>
         <sup><a href="https://github.com/dailydevops/fluentvalue.git">https://github.com/dailydevops/fluentvalue.git</a></sup>
       </td>
