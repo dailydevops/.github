@@ -53,10 +53,15 @@ function Get-Packages {
       continue
     }
 
+    $deprecated = "";
+    if ($package.deprecation) {
+      $deprecated += " ❌<b>DEPRECATED</b>"
+    }
+
     $result += @"
     <tr>
       <td>
-        <a href="https://www.nuget.org/packages/$($package.id)/"><b>$($package.title)</b></a><br/>
+        <a href="https://www.nuget.org/packages/$($package.id)/"><b>$($package.title)</b></a>$($deprecated)<br/>
         <sup><a href="$($package.projectUrl)">$($package.projectUrl)</a></sup>
       </td>
       <td>

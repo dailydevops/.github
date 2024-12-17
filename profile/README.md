@@ -507,7 +507,7 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
-        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlEdge/"><b>NetEvolve.HealthChecks.SqlEdge</b></a><br/>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlEdge/"><b>NetEvolve.HealthChecks.SqlEdge</b></a> ❌<b>DEPRECATED</b><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup>
       </td>
       <td>
