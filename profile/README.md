@@ -46,7 +46,7 @@ We try to keep our packages as simple as possible, focusing on a single task or 
   <thead>
     <tr>
       <td><b>Package Name</b></td>
-      <td><b>Version</b></td>
+      <td style="width:200px"><b>Version</b></td>
     </tr>
   </thead>
   <tbody>

@@ -40,7 +40,7 @@ function Get-Packages {
   <thead>
     <tr>
       <td><b>Package Name</b></td>
-      <td><b>Version</b></td>
+      <td style="width:200px"><b>Version</b></td>
     </tr>
   </thead>
   <tbody>
