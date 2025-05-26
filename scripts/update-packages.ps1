@@ -40,7 +40,6 @@ function Get-Packages {
   <thead>
     <tr>
       <td><b>Package Name</b></td>
-      <td><b>Downloads</b></td>
       <td><b>Version</b></td>
     </tr>
   </thead>
@@ -62,12 +61,8 @@ function Get-Packages {
     <tr>
       <td>
         <a href="https://www.nuget.org/packages/$($package.id)/"><b>$($package.title)</b></a>$($deprecated)<br/>
-        <sup><a href="$($package.projectUrl)">$($package.projectUrl)</a></sup>
-      </td>
-      <td>
-      <a href="https://www.nuget.org/packages/$($package.id)/">
-        <img src="https://img.shields.io/nuget/dt/$($package.id)?logo=nuget&style=for-the-badge" alt="$($package.id) Downloads" />
-      </a>
+        <sup><a href="$($package.projectUrl)">$($package.projectUrl)</a></sup><br/>
+        <p>$($package.description)</p>
       </td>
       <td>
         <a href="https://www.nuget.org/packages/$($package.id)/">
