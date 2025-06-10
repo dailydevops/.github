@@ -268,6 +268,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.ArangoDb/"><b>NetEvolve.HealthChecks.ArangoDb</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for ArangoDb, based on the nuget package `ArangoDBNetStandard`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.ArangoDb/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.ArangoDb?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.ArangoDb Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS/"><b>NetEvolve.HealthChecks.AWS</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
         <p>Contains HealthChecks for various AWS services.</p>
@@ -407,6 +419,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Firebird/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Firebird?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Firebird Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Keycloak/"><b>NetEvolve.HealthChecks.Keycloak</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for the Keycloak service, based on the nuget package `Keycloak.Net.Core`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Keycloak/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Keycloak?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Keycloak Version" />
         </a>
       </td>
     </tr>
