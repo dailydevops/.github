@@ -64,6 +64,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.CodeBuilder/"><b>NetEvolve.CodeBuilder</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/codebuilder">https://github.com/dailydevops/codebuilder</a></sup><br/>
+        <p>Provides a high-performance, memory-efficient builder for creating C# code.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.CodeBuilder/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.CodeBuilder?logo=nuget&style=for-the-badge" alt="NetEvolve.CodeBuilder Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Defaults/"><b>NetEvolve.Defaults</b></a><br/>
         <sup><a href="https://github.com/dailydevops/defaults">https://github.com/dailydevops/defaults</a></sup><br/>
         <p>Source Only package, which provides the standard configurations and settings for the NetEvolve projects. Such as `.editorconfig`, build props and targets.</p>
