@@ -304,6 +304,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.S3/"><b>NetEvolve.HealthChecks.AWS.S3</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for AWS Simple Storage Service (S3).</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.S3/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.AWS.S3?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.AWS.S3 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.SNS/"><b>NetEvolve.HealthChecks.AWS.SNS</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
         <p>Contains HealthChecks for AWS Simple Notification Service (SNS).</p>
@@ -316,6 +328,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.SQS/"><b>NetEvolve.HealthChecks.AWS.SQS</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for AWS Simple Queue Service (SQS).</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.SQS/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.AWS.SQS?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.AWS.SQS Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure/"><b>NetEvolve.HealthChecks.Azure</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
         <p>Contains HealthChecks for various Azure services.</p>
@@ -323,6 +347,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.ApplicationInsights/"><b>NetEvolve.HealthChecks.Azure.ApplicationInsights</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure Application Insights.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.ApplicationInsights/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.ApplicationInsights?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.ApplicationInsights Version" />
         </a>
       </td>
     </tr>
@@ -424,6 +460,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Elasticsearch/"><b>NetEvolve.HealthChecks.Elasticsearch</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Elasticsearch, based on the nuget package `Elastic.Clients.Elasticsearch`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Elasticsearch/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Elasticsearch?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Elasticsearch Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Firebird/"><b>NetEvolve.HealthChecks.Firebird</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
         <p>Contains HealthChecks for Firebird, based on the nuget package `FirebirdSql.Data.FirebirdClient`.</p>
@@ -431,6 +479,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Firebird/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Firebird?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Firebird Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Http/"><b>NetEvolve.HealthChecks.Http</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for HTTP endpoints, based on the HttpClient.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Http/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Http?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Http Version" />
         </a>
       </td>
     </tr>
@@ -623,6 +683,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlServer/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.SqlServer?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.SqlServer Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlServer.Devart/"><b>NetEvolve.HealthChecks.SqlServer.Devart</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Microsoft SqlServer, based on the nuget package `Devart.Data.SqlServer`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlServer.Devart/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.SqlServer.Devart?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.SqlServer.Devart Version" />
         </a>
       </td>
     </tr>
