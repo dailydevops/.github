@@ -184,7 +184,7 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
-        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.XUnit/"><b>NetEvolve.Extensions.XUnit</b></a><br/>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.XUnit/"><b>NetEvolve.Extensions.XUnit</b></a> ❌<b>DEPRECATED</b><br/>
         <sup><a href="https://github.com/dailydevops/extensions.test">https://github.com/dailydevops/extensions.test</a></sup><br/>
         <p>This library provides various compatibility features between `NUnit`, `XUnit`, `XUnit.V3`, `TUnit` and `MSTest`.</p>
       </td>
