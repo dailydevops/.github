@@ -604,7 +604,7 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
-        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.EventStoreDb/"><b>NetEvolve.HealthChecks.EventStoreDb</b></a><br/>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.EventStoreDb/"><b>NetEvolve.HealthChecks.EventStoreDb</b></a> ❌<b>DEPRECATED</b><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
         <p>Contains HealthChecks for EventStoreDb, based on the nuget package `EventStore.Client.Grpc.Streams`.</p>
       </td>
@@ -623,6 +623,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Firebird/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Firebird?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Firebird Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Garnet/"><b>NetEvolve.HealthChecks.Garnet</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Microsoft Garnet, based on the NuGet package `Microsoft.Garnet`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Garnet/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Garnet?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Garnet Version" />
         </a>
       </td>
     </tr>
@@ -731,6 +743,30 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Keycloak/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Keycloak?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Keycloak Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Kubernetes/"><b>NetEvolve.HealthChecks.Kubernetes</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Kubernetes, based on the nuget package `KubernetesClient`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Kubernetes/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Kubernetes?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Kubernetes Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.KurrentDb/"><b>NetEvolve.HealthChecks.KurrentDb</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for KurrentDb, based on the nuget package `KurrentDB.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.KurrentDb/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.KurrentDb?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.KurrentDb Version" />
         </a>
       </td>
     </tr>
