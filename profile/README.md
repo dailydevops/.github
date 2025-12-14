@@ -220,6 +220,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ForgingBlazor.Extensibility/"><b>NetEvolve.ForgingBlazor.Extensibility</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/forgingblazor">https://github.com/dailydevops/forgingblazor</a></sup><br/>
+        <p>ForgingBlazor is a modern Blazor-based static site generator backed by a clean, well-structured component library. Built on .NET for high performance and fast builds, it delivers a streamlined, Blazor-first workflow for creating efficient, maintainable, and scalable websites.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ForgingBlazor.Extensibility/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.ForgingBlazor.Extensibility?logo=nuget&style=for-the-badge" alt="NetEvolve.ForgingBlazor.Extensibility Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Guard/"><b>NetEvolve.Guard</b></a><br/>
         <sup><a href="https://github.com/dailydevops/guard">https://github.com/dailydevops/guard</a></sup><br/>
         <p>Basic input validation via the `Ensure`-class throws an `ArgumentException`, `ArgumentNullException` or other Exception types, if the conditions are not met. The second parameter `parameterName` from `Ensure.That(T value, string? parameterName = default!)` is optional and is automatically populated by .NET, based on the `CallerArgumentExpressionAttribute` functionality.</p>
