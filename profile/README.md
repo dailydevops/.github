@@ -222,7 +222,7 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.ForgingBlazor.Extensibility/"><b>NetEvolve.ForgingBlazor.Extensibility</b></a><br/>
         <sup><a href="https://github.com/dailydevops/forgingblazor">https://github.com/dailydevops/forgingblazor</a></sup><br/>
-        <p>ForgingBlazor is a modern Blazor-based static site generator backed by a clean, well-structured component library. Built on .NET for high performance and fast builds, it delivers a streamlined, Blazor-first workflow for creating efficient, maintainable, and scalable websites.</p>
+        <p>`NetEvolve.ForgingBlazor.Extensibility` is the core extensibility package for the ForgingBlazor framework, providing the fundamental abstractions, interfaces, and base models required to build custom content processors and extend the framework's functionality. This package serves as the foundation for creating plugins, content handlers, and custom page types within the ForgingBlazor ecosystem.</p>
       </td>
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.ForgingBlazor.Extensibility/">
