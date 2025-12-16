@@ -808,6 +808,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Meilisearch/"><b>NetEvolve.HealthChecks.Meilisearch</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Meilisearch, based on the nuget package `MeiliSearch`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Meilisearch/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Meilisearch?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Meilisearch Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Milvus/"><b>NetEvolve.HealthChecks.Milvus</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
         <p>Contains HealthChecks for Milvus, based on the nuget package `Milvus.Client`.</p>
