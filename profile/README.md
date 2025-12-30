@@ -304,6 +304,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.Solr/"><b>NetEvolve.HealthChecks.Apache.Solr</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Apache Solr, based on the NuGet package `SolrNet.Core`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.Solr/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Apache.Solr?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Apache.Solr Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.ArangoDb/"><b>NetEvolve.HealthChecks.ArangoDb</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
         <p>Contains HealthChecks for ArangoDb, based on the nuget package `ArangoDBNetStandard`.</p>
