@@ -54,7 +54,7 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Arguments/"><b>NetEvolve.Arguments</b></a><br/>
         <sup><a href="https://github.com/dailydevops/arguments">https://github.com/dailydevops/arguments</a></sup><br/>
-        <p>A library that provides compatible `ThrowIf` methods for .NET / C# for older runtimes.</p>
+        <p>A universal polyfill library that provides modern ArgumentNullException.ThrowIf* and ArgumentException.ThrowIf* helper methods across all .NET runtimes (.NET Standard 2.0+, .NET Framework 4.6.2+, .NET 6.0+), enabling consistent argument validation patterns regardless of target framework version.</p>
       </td>
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Arguments/">
