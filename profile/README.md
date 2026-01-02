@@ -436,6 +436,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.CosmosDB/"><b>NetEvolve.HealthChecks.Azure.CosmosDB</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure Cosmos DB.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.CosmosDB/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.CosmosDB?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.CosmosDB Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.EventHubs/"><b>NetEvolve.HealthChecks.Azure.EventHubs</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
         <p>Contains HealthChecks for Azure Event Hubs.</p>
