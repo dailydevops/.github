@@ -1276,6 +1276,30 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse/"><b>NetEvolve.Pulse</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Pulse - A high-performance, lightweight CQRS mediator library specifically designed for modern ASP.NET Core applications. Pulse implements the mediator pattern to facilitate clean, decoupled communication between application components through commands, queries, and events. The library provides automatic handler discovery and registration through dependency injection, ensuring type-safe message dispatching with minimal boilerplate code. Key features include: comprehensive interceptor pipeline for cross-cutting concerns (validation, logging, metrics, caching), scoped lifetime management for thread-safe operations within HTTP request boundaries, built-in support for async/await patterns, zero-allocation optimizations for high-throughput scenarios, and seamless integration with ASP.NET Core's service container. Pulse enforces CQRS principles by requiring exactly one handler per command/query while supporting multiple event handlers for domain event broadcasting. Ideal for microservices, modular monoliths, vertical slice architectures, and any application requiring clear separation between read and write operations. The library promotes testability through its abstraction-based design and enables building maintainable, scalable applications following clean architecture and domain-driven design principles.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Extensibility/"><b>NetEvolve.Pulse.Extensibility</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Extensibility contracts and abstractions for the Pulse CQRS mediator library. This package defines the core interfaces and abstractions required to implement the mediator pattern with Command Query Responsibility Segregation (CQRS) principles. It provides strongly-typed contracts for commands (ICommand, ICommandHandler), queries (IQuery), events (IEvent, IEventHandler), and request/response patterns (IRequest, IRequestHandler). The extensibility model includes interceptor interfaces (ICommandInterceptor, IQueryInterceptor, IEventInterceptor, IRequestInterceptor) for implementing cross-cutting concerns such as validation, logging, caching, authentication, and transaction management. This package is designed to be framework-agnostic and serves as the foundation for building testable, maintainable, and decoupled application architectures. Perfect for domain-driven design (DDD), clean architecture, and hexagonal architecture patterns where business logic needs to be isolated from infrastructure concerns.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Extensibility/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Extensibility?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Extensibility Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.SequentialGuid/"><b>NetEvolve.SequentialGuid</b></a><br/>
         <sup><a href="https://github.com/dailydevops/sequentialguid">https://github.com/dailydevops/sequentialguid</a></sup><br/>
         <p>Small project for the generation of sequential Guids.</p>
