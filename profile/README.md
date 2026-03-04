@@ -748,6 +748,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.IbmMQ/"><b>NetEvolve.HealthChecks.IbmMQ</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for IBM MQ, based on the nuget package `IBMMQDotnetClient`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.IbmMQ/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.IbmMQ?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.IbmMQ Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.InfluxDB/"><b>NetEvolve.HealthChecks.InfluxDB</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
         <p>Contains HealthChecks for InfluxDB, based on the nuget package `InfluxDB.Client`.</p>
@@ -1043,6 +1055,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Qdrant/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Qdrant?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Qdrant Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.QuestDB/"><b>NetEvolve.HealthChecks.QuestDB</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for QuestDB, based on the nuget package `net-questdb-client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.QuestDB/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.QuestDB?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.QuestDB Version" />
         </a>
       </td>
     </tr>
