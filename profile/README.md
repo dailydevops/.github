@@ -1228,6 +1228,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Azure.Functions/"><b>NetEvolve.Http.Correlation.Azure.Functions</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></sup><br/>
+        <p>Implementation of Azure.Functions middleware to use Http.Correlation. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Azure.Functions/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Http.Correlation.Azure.Functions?logo=nuget&style=for-the-badge" alt="NetEvolve.Http.Correlation.Azure.Functions Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.HttpClient/"><b>NetEvolve.Http.Correlation.HttpClient</b></a><br/>
         <sup><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></sup><br/>
         <p>Implementation of Http correlation handler to forward CorrelationId. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</p>
