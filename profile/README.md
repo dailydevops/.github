@@ -1324,6 +1324,30 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Dapr/"><b>NetEvolve.Pulse.Dapr</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Dapr pub/sub transport for the Pulse CQRS mediator outbox. Publishes outbox messages to Dapr topics via DaprClient, enabling integration with any message broker supported by Dapr (Redis, Kafka, Azure Service Bus, RabbitMQ, etc.). Supports single message publishing and batch publishing using Dapr's bulk publish API. Includes health checks via DaprClient.CheckHealthAsync and configurable topic name resolution from event types.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Dapr/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Dapr?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Dapr Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.EntityFramework/"><b>NetEvolve.Pulse.EntityFramework</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Provider-agnostic Entity Framework Core persistence for the Pulse outbox pattern. Provides IOutboxDbContext interface, OutboxMessageConfiguration for fluent mapping, EntityFrameworkOutboxRepository implementing IOutboxRepository, and EntityFrameworkEventOutbox participating in ambient DbContext transactions. Works with any EF Core database provider (SQL Server, PostgreSQL, SQLite, etc.) - users bring their own provider and generate migrations. Uses the canonical outbox schema ensuring interchangeability with plain ADO.NET providers. Designed for rapid development with full EF Core features including change tracking, LINQ queries, and migration support.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.EntityFramework/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.EntityFramework?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.EntityFramework Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Extensibility/"><b>NetEvolve.Pulse.Extensibility</b></a><br/>
         <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
         <p>Extensibility contracts and abstractions for the Pulse CQRS mediator library. This package defines the core interfaces and abstractions required to implement the mediator pattern with Command Query Responsibility Segregation (CQRS) principles. It provides strongly-typed contracts for commands (ICommand, ICommandHandler), queries (IQuery), events (IEvent, IEventHandler), and request/response patterns (IRequest, IRequestHandler). The extensibility model includes interceptor interfaces (ICommandInterceptor, IQueryInterceptor, IEventInterceptor, IRequestInterceptor) for implementing cross-cutting concerns such as validation, logging, caching, authentication, and transaction management. This package is designed to be framework-agnostic and serves as the foundation for building testable, maintainable, and decoupled application architectures. Perfect for domain-driven design (DDD), clean architecture, and hexagonal architecture patterns where business logic needs to be isolated from infrastructure concerns.</p>
@@ -1331,6 +1355,30 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Extensibility/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Extensibility?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Extensibility Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Polly/"><b>NetEvolve.Pulse.Polly</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Polly-based resilience policies for the Pulse CQRS mediator library. This package provides built-in interceptors for integrating Polly v8 resilience strategies including retry policies, circuit breakers, bulkhead isolation, timeout policies, and fallback strategies. The interceptors seamlessly integrate with the Pulse mediator pipeline through the IRequestInterceptor and IEventInterceptor interfaces, allowing you to apply resilience patterns to command handlers, query handlers, and event handlers. Supports both per-handler policy configuration and global policy application across all requests and events. Includes fluent API extensions for IMediatorConfigurator to simplify policy registration and configuration. Perfect for building robust, fault-tolerant applications that gracefully handle transient failures, cascading failures, and resource exhaustion scenarios in distributed systems and microservice architectures.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Polly/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Polly?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Polly Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.SqlServer/"><b>NetEvolve.Pulse.SqlServer</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>SQL Server persistence provider for the Pulse outbox pattern using plain ADO.NET. Provides SqlServerOutboxRepository implementing IOutboxRepository with optimized T-SQL queries, transaction support via SqlTransaction enlistment, and schema scripts for table creation. Supports configurable schema and table names for multi-tenant scenarios. Uses the canonical outbox schema ensuring interchangeability with Entity Framework provider. Designed for high-performance microservices requiring reliable event delivery with SQL Server as the backing store.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.SqlServer/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.SqlServer?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.SqlServer Version" />
         </a>
       </td>
     </tr>
