@@ -1324,6 +1324,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AspNetCore/"><b>NetEvolve.Pulse.AspNetCore</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>ASP.NET Core Minimal API integration for the Pulse CQRS mediator. Provides IEndpointRouteBuilder extension methods that map mediator commands and queries directly to HTTP endpoints, eliminating boilerplate endpoint handlers that only forward to IMediator. Commands are mapped using the CommandHttpMethod enum (Post, Put, Patch, Delete) with full CancellationToken propagation and OpenAPI compatibility. Queries are mapped to GET endpoints with route and query-string binding via [AsParameters].</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AspNetCore/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.AspNetCore?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.AspNetCore Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Dapr/"><b>NetEvolve.Pulse.Dapr</b></a><br/>
         <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
         <p>Dapr pub/sub transport for the Pulse CQRS mediator outbox. Publishes outbox messages to Dapr topics via DaprClient, enabling integration with any message broker supported by Dapr (Redis, Kafka, Azure Service Bus, RabbitMQ, etc.). Supports single message publishing and batch publishing using Dapr's bulk publish API. Includes health checks via DaprClient.CheckHealthAsync and configurable topic name resolution from event types.</p>
@@ -1355,6 +1367,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Extensibility/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Extensibility?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Extensibility Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.HttpCorrelation/"><b>NetEvolve.Pulse.HttpCorrelation</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>HTTP correlation ID propagation interceptors for the Pulse CQRS mediator library. Automatically propagates the HTTP correlation ID from IHttpCorrelationAccessor into every IRequest and IEvent dispatched through the mediator, eliminating the need to manually copy correlation IDs at every call site.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.HttpCorrelation/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.HttpCorrelation?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.HttpCorrelation Version" />
         </a>
       </td>
     </tr>
