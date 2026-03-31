@@ -1312,6 +1312,42 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ProjectBuilders/"><b>NetEvolve.ProjectBuilders</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/projectbuilders">https://github.com/dailydevops/projectbuilders</a></sup><br/>
+        <p>Allows you to create a temporary .NET project with all possible settings and few bells and whistles.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ProjectBuilders/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.ProjectBuilders?logo=nuget&style=for-the-badge" alt="NetEvolve.ProjectBuilders Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ProjectBuilders.TUnit/"><b>NetEvolve.ProjectBuilders.TUnit</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/projectbuilders">https://github.com/dailydevops/projectbuilders</a></sup><br/>
+        <p>Allows you to create a temporary .NET project with all possible settings and few bells and whistles.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ProjectBuilders.TUnit/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.ProjectBuilders.TUnit?logo=nuget&style=for-the-badge" alt="NetEvolve.ProjectBuilders.TUnit Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ProjectBuilders.XUnit/"><b>NetEvolve.ProjectBuilders.XUnit</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/projectbuilders">https://github.com/dailydevops/projectbuilders</a></sup><br/>
+        <p>Allows you to create a temporary .NET project with all possible settings and few bells and whistles.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ProjectBuilders.XUnit/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.ProjectBuilders.XUnit?logo=nuget&style=for-the-badge" alt="NetEvolve.ProjectBuilders.XUnit Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Pulse/"><b>NetEvolve.Pulse</b></a><br/>
         <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
         <p>Pulse - A high-performance, lightweight CQRS mediator library specifically designed for modern ASP.NET Core applications. Pulse implements the mediator pattern to facilitate clean, decoupled communication between application components through commands, queries, and events. The library provides automatic handler discovery and registration through dependency injection, ensuring type-safe message dispatching with minimal boilerplate code. Key features include: comprehensive interceptor pipeline for cross-cutting concerns (validation, logging, metrics, caching), scoped lifetime management for thread-safe operations within HTTP request boundaries, built-in support for async/await patterns, zero-allocation optimizations for high-throughput scenarios, and seamless integration with ASP.NET Core's service container. Pulse enforces CQRS principles by requiring exactly one handler per command/query while supporting multiple event handlers for domain event broadcasting. Ideal for microservices, modular monoliths, vertical slice architectures, and any application requiring clear separation between read and write operations. The library promotes testability through its abstraction-based design and enables building maintainable, scalable applications following clean architecture and domain-driven design principles.</p>
