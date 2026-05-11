@@ -1372,6 +1372,30 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AzureServiceBus/"><b>NetEvolve.Pulse.AzureServiceBus</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Azure Service Bus transport for the Pulse CQRS mediator outbox. Delivers outbox messages directly to Azure Service Bus queues or topics using the Azure SDK, supporting single and batched sends with health checks for the target entity.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AzureServiceBus/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.AzureServiceBus?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.AzureServiceBus Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.CosmosDb/"><b>NetEvolve.Pulse.CosmosDb</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Azure Cosmos DB persistence provider for the Pulse outbox pattern using the official Microsoft.Azure.Cosmos SDK. Provides CosmosDbOutboxRepository implementing IOutboxRepository with optimistic concurrency via ETag-based conditional patch operations. Supports configurable database name, container name, and TTL-based automatic cleanup for completed and dead-letter documents. Designed for document-oriented architectures on Azure Cosmos DB that require the outbox pattern without introducing a relational database dependency.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.CosmosDb/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.CosmosDb?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.CosmosDb Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Dapr/"><b>NetEvolve.Pulse.Dapr</b></a><br/>
         <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
         <p>Dapr pub/sub transport for the Pulse CQRS mediator outbox. Publishes outbox messages to Dapr topics via DaprClient, enabling integration with any message broker supported by Dapr (Redis, Kafka, Azure Service Bus, RabbitMQ, etc.). Supports single message publishing and batch publishing using Dapr's bulk publish API. Includes health checks via DaprClient.CheckHealthAsync and configurable topic name resolution from event types.</p>
@@ -1408,6 +1432,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.FluentValidation/"><b>NetEvolve.Pulse.FluentValidation</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>FluentValidation interceptor for the Pulse CQRS mediator library. Automatically validates commands and queries before they reach their handler using FluentValidation validators registered in the DI container, enforcing business invariants at the pipeline boundary without duplicating validation logic inside handlers.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.FluentValidation/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.FluentValidation?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.FluentValidation Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Pulse.HttpCorrelation/"><b>NetEvolve.Pulse.HttpCorrelation</b></a><br/>
         <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
         <p>HTTP correlation ID propagation interceptors for the Pulse CQRS mediator library. Automatically propagates the HTTP correlation ID from IHttpCorrelationAccessor into every IRequest and IEvent dispatched through the mediator, eliminating the need to manually copy correlation IDs at every call site.</p>
@@ -1420,13 +1456,109 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Kafka/"><b>NetEvolve.Pulse.Kafka</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Apache Kafka transport for the Pulse CQRS mediator outbox. Delivers outbox messages directly to Kafka topics using the Confluent.Kafka producer, supporting single and batched sends with health checks via cluster metadata.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Kafka/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Kafka?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Kafka Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.MongoDB/"><b>NetEvolve.Pulse.MongoDB</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>MongoDB persistence provider for the Pulse outbox pattern using the official MongoDB C# driver. Provides MongoDbOutboxRepository implementing IOutboxRepository with FindOneAndUpdateAsync for atomic message claiming and safe concurrent polling. Supports configurable database name and collection name. Requires IMongoClient to be registered in the dependency injection container by the caller. Designed for document-oriented architectures where the outbox participates in the same MongoDB database as domain aggregates.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.MongoDB/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.MongoDB?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.MongoDB Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.MySql/"><b>NetEvolve.Pulse.MySql</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>MySQL persistence provider for the Pulse outbox and idempotency patterns using plain ADO.NET. Provides MySqlOutboxRepository implementing IOutboxRepository with optimized MySQL queries, transaction support via MySqlTransaction enlistment, and schema scripts for table creation. Also provides MySqlIdempotencyKeyRepository implementing IIdempotencyKeyRepository for at-most-once command processing. Uses SELECT ... FOR UPDATE SKIP LOCKED (MySQL 8.0+) for concurrent polling safety. Stores GUIDs as BINARY(16) and DateTimeOffset values as BIGINT (UTC ticks) for interoperability with the Entity Framework MySQL provider. Requires MySQL 8.0 or later. The Schema option is not applicable to MySQL; tables are created in the active database specified in the connection string.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.MySql/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.MySql?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.MySql Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Polly/"><b>NetEvolve.Pulse.Polly</b></a><br/>
         <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
-        <p>Polly-based resilience policies for the Pulse CQRS mediator library. This package provides built-in interceptors for integrating Polly v8 resilience strategies including retry policies, circuit breakers, bulkhead isolation, timeout policies, and fallback strategies. The interceptors seamlessly integrate with the Pulse mediator pipeline through the IRequestInterceptor and IEventInterceptor interfaces, allowing you to apply resilience patterns to command handlers, query handlers, and event handlers. Supports both per-handler policy configuration and global policy application across all requests and events. Includes fluent API extensions for IMediatorConfigurator to simplify policy registration and configuration. Perfect for building robust, fault-tolerant applications that gracefully handle transient failures, cascading failures, and resource exhaustion scenarios in distributed systems and microservice architectures.</p>
+        <p>Polly-based resilience policies for the Pulse CQRS mediator library. This package provides built-in interceptors for integrating Polly v8 resilience strategies including retry policies, circuit breakers, bulkhead isolation, timeout policies, and fallback strategies. The interceptors seamlessly integrate with the Pulse mediator pipeline through the IRequestInterceptor and IEventInterceptor interfaces, allowing you to apply resilience patterns to command handlers, query handlers, and event handlers. Supports both per-handler policy configuration and global policy application across all requests and events. Includes fluent API extensions for IMediatorBuilder to simplify policy registration and configuration. Perfect for building robust, fault-tolerant applications that gracefully handle transient failures, cascading failures, and resource exhaustion scenarios in distributed systems and microservice architectures.</p>
       </td>
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Polly/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Polly?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Polly Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.PostgreSql/"><b>NetEvolve.Pulse.PostgreSql</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>PostgreSQL persistence provider for the Pulse outbox and idempotency patterns using plain ADO.NET. Provides PostgreSqlOutboxRepository implementing IOutboxRepository with optimized PostgreSQL queries, transaction support via NpgsqlTransaction enlistment, and schema scripts for table creation. Also provides PostgreSqlIdempotencyKeyRepository implementing IIdempotencyKeyRepository for at-most-once command processing. Uses FOR UPDATE SKIP LOCKED for concurrent polling safety. Supports configurable schema and table names for multi-tenant scenarios. Uses the canonical schemas ensuring interchangeability with Entity Framework provider. Designed for high-performance microservices requiring reliable event delivery with PostgreSQL as the backing store.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.PostgreSql/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.PostgreSql?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.PostgreSql Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.RabbitMQ/"><b>NetEvolve.Pulse.RabbitMQ</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>RabbitMQ transport for the Pulse CQRS mediator outbox. Delivers outbox messages directly to RabbitMQ exchanges using the official .NET client, supporting single and batched sends with health checks for the broker connection.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.RabbitMQ/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.RabbitMQ?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.RabbitMQ Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Redis/"><b>NetEvolve.Pulse.Redis</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Redis idempotency provider for Pulse using StackExchange.Redis. Implements IIdempotencyStore with atomic SET NX EX operations for high-throughput, distributed idempotency enforcement without read-before-write round-trips.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Redis/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Redis?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Redis Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.SourceGeneration/"><b>NetEvolve.Pulse.SourceGeneration</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Roslyn source generator for the Pulse CQRS mediator library. Automatically generates DI registration code for handler classes annotated with [PulseHandler], eliminating manual service registrations and catching missing or duplicate registrations at compile time.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.SourceGeneration/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.SourceGeneration?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.SourceGeneration Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.SQLite/"><b>NetEvolve.Pulse.SQLite</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>SQLite persistence provider for the Pulse outbox pattern using plain ADO.NET. Provides SQLiteOutboxRepository implementing IOutboxRepository with optimized SQL queries, WAL mode support, and BEGIN IMMEDIATE transactions for safe concurrent polling. Supports configurable table names for embedded and edge deployments. Designed for lightweight applications, CLI tools, IoT, and edge services that require the outbox pattern without external infrastructure dependencies.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.SQLite/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.SQLite?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.SQLite Version" />
         </a>
       </td>
     </tr>
