@@ -64,6 +64,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Arguments.Analyser/"><b>NetEvolve.Arguments.Analyser</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/arguments">https://github.com/dailydevops/arguments</a></sup><br/>
+        <p>Roslyn analyzers and code fixes that promote using NetEvolve.Arguments / BCL throw-helper APIs instead of manual argument-validation `if` blocks, on every target framework supported by NetEvolve.Arguments.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Arguments.Analyser/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Arguments.Analyser?logo=nuget&style=for-the-badge" alt="NetEvolve.Arguments.Analyser Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.CodeBuilder/"><b>NetEvolve.CodeBuilder</b></a><br/>
         <sup><a href="https://github.com/dailydevops/codebuilder">https://github.com/dailydevops/codebuilder</a></sup><br/>
         <p>Provides a high-performance, memory-efficient builder for creating C# code.</p>
