@@ -1384,6 +1384,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AzureQueueStorage/"><b>NetEvolve.Pulse.AzureQueueStorage</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Azure Queue Storage transport for the Pulse CQRS mediator outbox. Delivers outbox messages to Azure Queue Storage queues using the Azure SDK, supporting single and batched sends with managed identity or connection string authentication.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AzureQueueStorage/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.AzureQueueStorage?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.AzureQueueStorage Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AzureServiceBus/"><b>NetEvolve.Pulse.AzureServiceBus</b></a><br/>
         <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
         <p>Azure Service Bus transport for the Pulse CQRS mediator outbox. Delivers outbox messages directly to Azure Service Bus queues or topics using the Azure SDK, supporting single and batched sends with health checks for the target entity.</p>
