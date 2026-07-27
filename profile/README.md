@@ -1216,6 +1216,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Seq/"><b>NetEvolve.HealthPublishers.Seq</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to a Seq server.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Seq/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Seq?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Seq Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Abstractions/"><b>NetEvolve.Http.Correlation.Abstractions</b></a><br/>
         <sup><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></sup><br/>
         <p>Abstractions for the uniform use of Http.Correlation. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</p>
