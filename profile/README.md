@@ -232,18 +232,6 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
-        <a href="https://www.nuget.org/packages/NetEvolve.ForgingBlazor.Extensibility/"><b>NetEvolve.ForgingBlazor.Extensibility</b></a><br/>
-        <sup><a href="https://github.com/dailydevops/forgingblazor">https://github.com/dailydevops/forgingblazor</a></sup><br/>
-        <p>`NetEvolve.ForgingBlazor.Extensibility` is the core extensibility package for the ForgingBlazor framework, providing the fundamental abstractions, interfaces, and base models required to build custom content processors and extend the framework's functionality. This package serves as the foundation for creating plugins, content handlers, and custom page types within the ForgingBlazor ecosystem.</p>
-      </td>
-      <td>
-        <a href="https://www.nuget.org/packages/NetEvolve.ForgingBlazor.Extensibility/">
-          <img src="https://img.shields.io/nuget/v/NetEvolve.ForgingBlazor.Extensibility?logo=nuget&style=for-the-badge" alt="NetEvolve.ForgingBlazor.Extensibility Version" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Guard/"><b>NetEvolve.Guard</b></a><br/>
         <sup><a href="https://github.com/dailydevops/guard">https://github.com/dailydevops/guard</a></sup><br/>
         <p>Basic input validation via the `Ensure`-class throws an `ArgumentException`, `ArgumentNullException` or other Exception types, if the conditions are not met. The second parameter `parameterName` from `Ensure.That(T value, string? parameterName = default!)` is optional and is automatically populated by .NET, based on the `CallerArgumentExpressionAttribute` functionality.</p>
@@ -316,6 +304,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.RocketMQ/"><b>NetEvolve.HealthChecks.Apache.RocketMQ</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Apache RocketMQ, based on the NuGet package `RocketMQ.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.RocketMQ/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Apache.RocketMQ?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Apache.RocketMQ Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.Solr/"><b>NetEvolve.HealthChecks.Apache.Solr</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
         <p>Contains HealthChecks for Apache Solr, based on the NuGet package `SolrNet.Core`.</p>
@@ -347,6 +347,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.AWS?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.AWS Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.CloudWatch/"><b>NetEvolve.HealthChecks.AWS.CloudWatch</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for AWS CloudWatch.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.CloudWatch/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.AWS.CloudWatch?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.AWS.CloudWatch Version" />
         </a>
       </td>
     </tr>
@@ -467,6 +479,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.EventHubs/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.EventHubs?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.EventHubs Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.KeyVault/"><b>NetEvolve.HealthChecks.Azure.KeyVault</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure Key Vault.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.KeyVault/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.KeyVault?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.KeyVault Version" />
         </a>
       </td>
     </tr>
@@ -1216,6 +1240,114 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.ApplicationInsights/"><b>NetEvolve.HealthPublishers.ApplicationInsights</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to Azure Application Insights.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.ApplicationInsights/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.ApplicationInsights?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.ApplicationInsights Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.AWS.CloudWatch/"><b>NetEvolve.HealthPublishers.AWS.CloudWatch</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that publishes health report results as metrics to Amazon CloudWatch, using AWSSDK.CloudWatch.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.AWS.CloudWatch/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.AWS.CloudWatch?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.AWS.CloudWatch Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Datadog/"><b>NetEvolve.HealthPublishers.Datadog</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to Datadog as events.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Datadog/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Datadog?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Datadog Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Elasticsearch/"><b>NetEvolve.HealthPublishers.Elasticsearch</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that indexes health report results as documents into an Elasticsearch cluster, using Elastic.Clients.Elasticsearch.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Elasticsearch/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Elasticsearch?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Elasticsearch Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.OpenTelemetry/"><b>NetEvolve.HealthPublishers.OpenTelemetry</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that reports health report results as .NET metrics (System.Diagnostics.Metrics), consumable by any OpenTelemetry-compatible collector.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.OpenTelemetry/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.OpenTelemetry?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.OpenTelemetry Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Opsgenie/"><b>NetEvolve.HealthPublishers.Opsgenie</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that creates and closes Opsgenie alerts based on health report results.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Opsgenie/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Opsgenie?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Opsgenie Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.PagerDuty/"><b>NetEvolve.HealthPublishers.PagerDuty</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that triggers and resolves PagerDuty incidents based on health report results, using the Events API v2.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.PagerDuty/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.PagerDuty?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.PagerDuty Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Prometheus.Metrics/"><b>NetEvolve.HealthPublishers.Prometheus.Metrics</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that updates prometheus-net Gauge metrics in an in-process CollectorRegistry, reflecting the latest health report results, for scraping via prometheus-net's own ASP.NET Core middleware.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Prometheus.Metrics/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Prometheus.Metrics?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Prometheus.Metrics Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Prometheus.PushGateway/"><b>NetEvolve.HealthPublishers.Prometheus.PushGateway</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to a Prometheus Pushgateway instance as metrics.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Prometheus.PushGateway/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Prometheus.PushGateway?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Prometheus.PushGateway Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Seq/"><b>NetEvolve.HealthPublishers.Seq</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
         <p>Contains an IHealthCheckPublisher implementation that pushes health report results to a Seq server.</p>
@@ -1223,6 +1355,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Seq/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Seq?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Seq Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Splunk/"><b>NetEvolve.HealthPublishers.Splunk</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to Splunk via the HTTP Event Collector (HEC).</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Splunk/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Splunk?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Splunk Version" />
         </a>
       </td>
     </tr>
