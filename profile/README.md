@@ -232,6 +232,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift/"><b>NetEvolve.FrameShift</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/frameshift">https://github.com/dailydevops/frameshift</a></sup><br/>
+        <p>Roslyn analyzers that surface mutation-testing gaps in .NET code at build time. Requires a toolchain shipping Roslyn 5.6 or newer (.NET SDK 10.0.100 or Visual Studio 2026 and above); see the Requirements section of the README for details.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.FrameShift?logo=nuget&style=for-the-badge" alt="NetEvolve.FrameShift Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Guard/"><b>NetEvolve.Guard</b></a><br/>
         <sup><a href="https://github.com/dailydevops/guard">https://github.com/dailydevops/guard</a></sup><br/>
         <p>Basic input validation via the `Ensure`-class throws an `ArgumentException`, `ArgumentNullException` or other Exception types, if the conditions are not met. The second parameter `parameterName` from `Ensure.That(T value, string? parameterName = default!)` is optional and is automatically populated by .NET, based on the `CallerArgumentExpressionAttribute` functionality.</p>
