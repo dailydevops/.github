@@ -52,6 +52,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
   <tbody>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer/"><b>NetEvolve.Analyzer</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/analyzer">https://github.com/dailydevops/analyzer</a></sup><br/>
+        <p>NetEvolve Roslyn analyzers and code fixes, organized by the standard Microsoft diagnostic categories.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Analyzer?logo=nuget&style=for-the-badge" alt="NetEvolve.Analyzer Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Arguments/"><b>NetEvolve.Arguments</b></a><br/>
         <sup><a href="https://github.com/dailydevops/arguments">https://github.com/dailydevops/arguments</a></sup><br/>
         <p>A universal polyfill library that provides modern ArgumentNullException.ThrowIf* and ArgumentException.ThrowIf* helper methods across all .NET runtimes (.NET Standard 2.0+, .NET Framework 4.6.2+, .NET 6.0+), enabling consistent argument validation patterns regardless of target framework version.</p>
@@ -239,6 +251,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.FrameShift/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.FrameShift?logo=nuget&style=for-the-badge" alt="NetEvolve.FrameShift Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Execution/"><b>NetEvolve.FrameShift.Execution</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/frameshift">https://github.com/dailydevops/frameshift</a></sup><br/>
+        <p>A command-line tool that runs execution-based mutation verification: it mutates a compiled assembly, re-runs the referencing test project against every mutant, and reports the resulting mutation score.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Execution/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.FrameShift.Execution?logo=nuget&style=for-the-badge" alt="NetEvolve.FrameShift.Execution Version" />
         </a>
       </td>
     </tr>
