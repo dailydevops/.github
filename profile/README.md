@@ -64,6 +64,66 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer.Dogfood/"><b>NetEvolve.Analyzer.Dogfood</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/analyzer">https://github.com/dailydevops/analyzer</a></sup><br/>
+        <p>NetEvolve Roslyn analyzers and code fixes, organized by the standard Microsoft diagnostic categories.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer.Dogfood/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Analyzer.Dogfood?logo=nuget&style=for-the-badge" alt="NetEvolve.Analyzer.Dogfood Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer.Roslyn4_14/"><b>NetEvolve.Analyzer.Roslyn4_14</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/analyzer">https://github.com/dailydevops/analyzer</a></sup><br/>
+        <p>NetEvolve Roslyn analyzers and code fixes, organized by the standard Microsoft diagnostic categories.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer.Roslyn4_14/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Analyzer.Roslyn4_14?logo=nuget&style=for-the-badge" alt="NetEvolve.Analyzer.Roslyn4_14 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer.Roslyn4_4/"><b>NetEvolve.Analyzer.Roslyn4_4</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/analyzer">https://github.com/dailydevops/analyzer</a></sup><br/>
+        <p>NetEvolve Roslyn analyzers and code fixes, organized by the standard Microsoft diagnostic categories.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer.Roslyn4_4/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Analyzer.Roslyn4_4?logo=nuget&style=for-the-badge" alt="NetEvolve.Analyzer.Roslyn4_4 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer.Roslyn4_7/"><b>NetEvolve.Analyzer.Roslyn4_7</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/analyzer">https://github.com/dailydevops/analyzer</a></sup><br/>
+        <p>NetEvolve Roslyn analyzers and code fixes, organized by the standard Microsoft diagnostic categories.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer.Roslyn4_7/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Analyzer.Roslyn4_7?logo=nuget&style=for-the-badge" alt="NetEvolve.Analyzer.Roslyn4_7 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer.Roslyn5_6/"><b>NetEvolve.Analyzer.Roslyn5_6</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/analyzer">https://github.com/dailydevops/analyzer</a></sup><br/>
+        <p>NetEvolve Roslyn analyzers and code fixes, organized by the standard Microsoft diagnostic categories.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer.Roslyn5_6/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Analyzer.Roslyn5_6?logo=nuget&style=for-the-badge" alt="NetEvolve.Analyzer.Roslyn5_6 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Arguments/"><b>NetEvolve.Arguments</b></a><br/>
         <sup><a href="https://github.com/dailydevops/arguments">https://github.com/dailydevops/arguments</a></sup><br/>
         <p>A universal polyfill library that provides modern ArgumentNullException.ThrowIf* and ArgumentException.ThrowIf* helper methods across all .NET runtimes (.NET Standard 2.0+, .NET Framework 4.6.2+, .NET 6.0+), enabling consistent argument validation patterns regardless of target framework version.</p>
