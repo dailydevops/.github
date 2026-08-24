@@ -246,7 +246,7 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.FrameShift/"><b>NetEvolve.FrameShift</b></a><br/>
         <sup><a href="https://github.com/dailydevops/frameshift">https://github.com/dailydevops/frameshift</a></sup><br/>
-        <p>Roslyn analyzers that surface mutation-testing gaps in .NET code at build time. Requires a toolchain shipping Roslyn 5.6 or newer (.NET SDK 10.0.100 or Visual Studio 2026 and above); see the Requirements section of the README for details.</p>
+        <p>Roslyn analyzers that surface mutation-testing gaps in .NET code at build time. Supports Roslyn 4.8 and newer (.NET SDK 8.0.400+ or Visual Studio 2022 17.8+), and picks the newest API surface your toolchain provides; see the Requirements section of the README for details.</p>
       </td>
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.FrameShift/">
@@ -263,6 +263,42 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Execution/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.FrameShift.Execution?logo=nuget&style=for-the-badge" alt="NetEvolve.FrameShift.Execution Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Roslyn4_14/"><b>NetEvolve.FrameShift.Roslyn4_14</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/frameshift">https://github.com/dailydevops/frameshift</a></sup><br/>
+        <p>Roslyn analyzers that surface mutation-testing gaps in .NET code at build time. Supports Roslyn 4.8 and newer (.NET SDK 8.0.400+ or Visual Studio 2022 17.8+), and picks the newest API surface your toolchain provides; see the Requirements section of the README for details.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Roslyn4_14/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.FrameShift.Roslyn4_14?logo=nuget&style=for-the-badge" alt="NetEvolve.FrameShift.Roslyn4_14 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Roslyn4_8/"><b>NetEvolve.FrameShift.Roslyn4_8</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/frameshift">https://github.com/dailydevops/frameshift</a></sup><br/>
+        <p>Roslyn analyzers that surface mutation-testing gaps in .NET code at build time. Supports Roslyn 4.8 and newer (.NET SDK 8.0.400+ or Visual Studio 2022 17.8+), and picks the newest API surface your toolchain provides; see the Requirements section of the README for details.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Roslyn4_8/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.FrameShift.Roslyn4_8?logo=nuget&style=for-the-badge" alt="NetEvolve.FrameShift.Roslyn4_8 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Roslyn5_6/"><b>NetEvolve.FrameShift.Roslyn5_6</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/frameshift">https://github.com/dailydevops/frameshift</a></sup><br/>
+        <p>Roslyn analyzers that surface mutation-testing gaps in .NET code at build time. Supports Roslyn 4.8 and newer (.NET SDK 8.0.400+ or Visual Studio 2022 17.8+), and picks the newest API surface your toolchain provides; see the Requirements section of the README for details.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Roslyn5_6/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.FrameShift.Roslyn5_6?logo=nuget&style=for-the-badge" alt="NetEvolve.FrameShift.Roslyn5_6 Version" />
         </a>
       </td>
     </tr>
@@ -1192,6 +1228,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Seq/"><b>NetEvolve.HealthChecks.Seq</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for the Seq service, based on the nuget package `Seq.Api`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Seq/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Seq?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Seq Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlEdge/"><b>NetEvolve.HealthChecks.SqlEdge</b></a> ❌<b>DEPRECATED</b><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
         <p>Contains HealthChecks for SqlEdge, based on the nuget package `Microsoft.Data.SqlClient`.</p>
@@ -1319,6 +1367,30 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Elasticsearch/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Elasticsearch?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Elasticsearch Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Email/"><b>NetEvolve.HealthPublishers.Email</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that sends health report results via SMTP email.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Email/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Email?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Email Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.MicrosoftTeams/"><b>NetEvolve.HealthPublishers.MicrosoftTeams</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to a Microsoft Teams channel via an incoming webhook or workflow connector.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.MicrosoftTeams/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.MicrosoftTeams?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.MicrosoftTeams Version" />
         </a>
       </td>
     </tr>
