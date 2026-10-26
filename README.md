@@ -18,7 +18,1879 @@ This is the special [`.github`](https://docs.github.com/en/organizations/collabo
 
 1. The workflow `Update packages in README.md` runs daily at 04:21 UTC, on pushes to `main` that touch the script, and on manual dispatch.
 2. `update-packages.ps1` fetches all packages matching `netevolve` from NuGet, keeps those with the `NetEvolve.` prefix, and renders them sorted by id. Deprecated packages are marked.
-3. The output replaces everything between the `<!-- packages:start -->` and `<!-- packages:end -->` markers in every `README.*` file that contains them.
+3. The output replaces everything between the `<!-- packages:start -->
+<div align="center">
+<table>
+  <thead>
+    <tr>
+      <td><b>Package Name</b></td>
+      <td style="width:200px"><b>Version</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer/"><b>NetEvolve.Analyzer</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/analyzer">https://github.com/dailydevops/analyzer</a></sup><br/>
+        <p>NetEvolve Roslyn analyzers and code fixes, organized by the standard Microsoft diagnostic categories.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Analyzer/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Analyzer?logo=nuget&style=for-the-badge" alt="NetEvolve.Analyzer Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Arguments/"><b>NetEvolve.Arguments</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/arguments">https://github.com/dailydevops/arguments</a></sup><br/>
+        <p>A universal polyfill library that provides modern ArgumentNullException.ThrowIf* and ArgumentException.ThrowIf* helper methods across all .NET runtimes (.NET Standard 2.0+, .NET Framework 4.6.2+, .NET 6.0+), enabling consistent argument validation patterns regardless of target framework version.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Arguments/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Arguments?logo=nuget&style=for-the-badge" alt="NetEvolve.Arguments Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Arguments.Analyser/"><b>NetEvolve.Arguments.Analyser</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/arguments">https://github.com/dailydevops/arguments</a></sup><br/>
+        <p>Roslyn analyzers and code fixes that promote using NetEvolve.Arguments / BCL throw-helper APIs instead of manual argument-validation `if` blocks, on every target framework supported by NetEvolve.Arguments.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Arguments.Analyser/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Arguments.Analyser?logo=nuget&style=for-the-badge" alt="NetEvolve.Arguments.Analyser Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.CodeBuilder/"><b>NetEvolve.CodeBuilder</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/codebuilder">https://github.com/dailydevops/codebuilder</a></sup><br/>
+        <p>Provides a high-performance, memory-efficient builder for creating C# code.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.CodeBuilder/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.CodeBuilder?logo=nuget&style=for-the-badge" alt="NetEvolve.CodeBuilder Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Defaults/"><b>NetEvolve.Defaults</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/defaults">https://github.com/dailydevops/defaults</a></sup><br/>
+        <p>Source Only package, which provides the standard configurations and settings for the NetEvolve projects. Such as `.editorconfig`, build props and targets.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Defaults/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Defaults?logo=nuget&style=for-the-badge" alt="NetEvolve.Defaults Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Defaults.Analyzer/"><b>NetEvolve.Defaults.Analyzer</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/defaults">https://github.com/dailydevops/defaults</a></sup><br/>
+        <p>NetEvolve.Defaults.Analyzer provides several diagnostic analyzers, to improve the nuget package quality and consistency.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Defaults.Analyzer/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Defaults.Analyzer?logo=nuget&style=for-the-badge" alt="NetEvolve.Defaults.Analyzer Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Data/"><b>NetEvolve.Extensions.Data</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.data.git">https://github.com/dailydevops/extensions.data.git</a></sup><br/>
+        <p>Extensions for the `System.Data` namespace</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Data/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Extensions.Data?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.Data Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Hosting.WinForms/"><b>NetEvolve.Extensions.Hosting.WinForms</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.hosting.winforms">https://github.com/dailydevops/extensions.hosting.winforms</a></sup><br/>
+        <p>.NET Hosting infrastructure for Windows Forms.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Hosting.WinForms/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Extensions.Hosting.WinForms?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.Hosting.WinForms Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.MSTest/"><b>NetEvolve.Extensions.MSTest</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.test">https://github.com/dailydevops/extensions.test</a></sup><br/>
+        <p>This library provides various compatibility features between `NUnit`, `XUnit`, `XUnit.V3`, `TUnit` and `MSTest`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.MSTest/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Extensions.MSTest?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.MSTest Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.NUnit/"><b>NetEvolve.Extensions.NUnit</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.test">https://github.com/dailydevops/extensions.test</a></sup><br/>
+        <p>This library provides various compatibility features between `NUnit`, `XUnit`, `XUnit.V3`, `TUnit` and `MSTest`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.NUnit/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Extensions.NUnit?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.NUnit Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Strings/"><b>NetEvolve.Extensions.Strings</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.strings">https://github.com/dailydevops/extensions.strings</a></sup><br/>
+        <p>Library with common `string` extension methods for easy reuse.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Strings/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Extensions.Strings?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.Strings Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Tasks/"><b>NetEvolve.Extensions.Tasks</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.tasks">https://github.com/dailydevops/extensions.tasks</a></sup><br/>
+        <p>This library provides simple extension methods for `Task`, `Task<T>`, `ValueTask` and `ValueTask<T>`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.Tasks/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Extensions.Tasks?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.Tasks Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.TUnit/"><b>NetEvolve.Extensions.TUnit</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.test">https://github.com/dailydevops/extensions.test</a></sup><br/>
+        <p>This library provides various compatibility features between `NUnit`, `XUnit`, `XUnit.V3`, `TUnit` and `MSTest`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.TUnit/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Extensions.TUnit?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.TUnit Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.XUnit/"><b>NetEvolve.Extensions.XUnit</b></a> ❌<b>DEPRECATED</b><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.test">https://github.com/dailydevops/extensions.test</a></sup><br/>
+        <p>This library provides various compatibility features between `NUnit`, `XUnit`, `XUnit.V3`, `TUnit` and `MSTest`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.XUnit/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Extensions.XUnit?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.XUnit Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.XUnit.V3/"><b>NetEvolve.Extensions.XUnit.V3</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.test">https://github.com/dailydevops/extensions.test</a></sup><br/>
+        <p>This library provides various compatibility features between `NUnit`, `XUnit`, `XUnit.V3`, `TUnit` and `MSTest`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Extensions.XUnit.V3/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Extensions.XUnit.V3?logo=nuget&style=for-the-badge" alt="NetEvolve.Extensions.XUnit.V3 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FluentValue/"><b>NetEvolve.FluentValue</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/fluentvalue.git">https://github.com/dailydevops/fluentvalue.git</a></sup><br/>
+        <p>The fluent value validation library provides a set of fluent interfaces to validate values.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FluentValue/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.FluentValue?logo=nuget&style=for-the-badge" alt="NetEvolve.FluentValue Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift/"><b>NetEvolve.FrameShift</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/frameshift">https://github.com/dailydevops/frameshift</a></sup><br/>
+        <p>Roslyn analyzers that surface mutation-testing gaps in .NET code at build time. Supports Roslyn 4.8 and newer (.NET SDK 8.0.400+ or Visual Studio 2022 17.8+), and picks the newest API surface your toolchain provides; see the Requirements section of the README for details.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.FrameShift?logo=nuget&style=for-the-badge" alt="NetEvolve.FrameShift Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Execution/"><b>NetEvolve.FrameShift.Execution</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/frameshift">https://github.com/dailydevops/frameshift</a></sup><br/>
+        <p>A command-line tool that runs execution-based mutation verification: it mutates a compiled assembly, re-runs the referencing test project against every mutant, and reports the resulting mutation score.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Execution/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.FrameShift.Execution?logo=nuget&style=for-the-badge" alt="NetEvolve.FrameShift.Execution Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Roslyn4_14/"><b>NetEvolve.FrameShift.Roslyn4_14</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/frameshift">https://github.com/dailydevops/frameshift</a></sup><br/>
+        <p>Roslyn analyzers that surface mutation-testing gaps in .NET code at build time. Supports Roslyn 4.8 and newer (.NET SDK 8.0.400+ or Visual Studio 2022 17.8+), and picks the newest API surface your toolchain provides; see the Requirements section of the README for details.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Roslyn4_14/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.FrameShift.Roslyn4_14?logo=nuget&style=for-the-badge" alt="NetEvolve.FrameShift.Roslyn4_14 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Roslyn4_8/"><b>NetEvolve.FrameShift.Roslyn4_8</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/frameshift">https://github.com/dailydevops/frameshift</a></sup><br/>
+        <p>Roslyn analyzers that surface mutation-testing gaps in .NET code at build time. Supports Roslyn 4.8 and newer (.NET SDK 8.0.400+ or Visual Studio 2022 17.8+), and picks the newest API surface your toolchain provides; see the Requirements section of the README for details.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Roslyn4_8/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.FrameShift.Roslyn4_8?logo=nuget&style=for-the-badge" alt="NetEvolve.FrameShift.Roslyn4_8 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Roslyn5_6/"><b>NetEvolve.FrameShift.Roslyn5_6</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/frameshift">https://github.com/dailydevops/frameshift</a></sup><br/>
+        <p>Roslyn analyzers that surface mutation-testing gaps in .NET code at build time. Supports Roslyn 4.8 and newer (.NET SDK 8.0.400+ or Visual Studio 2022 17.8+), and picks the newest API surface your toolchain provides; see the Requirements section of the README for details.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.FrameShift.Roslyn5_6/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.FrameShift.Roslyn5_6?logo=nuget&style=for-the-badge" alt="NetEvolve.FrameShift.Roslyn5_6 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Guard/"><b>NetEvolve.Guard</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/guard">https://github.com/dailydevops/guard</a></sup><br/>
+        <p>Basic input validation via the `Ensure`-class throws an `ArgumentException`, `ArgumentNullException` or other Exception types, if the conditions are not met. The second parameter `parameterName` from `Ensure.That(T value, string? parameterName = default!)` is optional and is automatically populated by .NET, based on the `CallerArgumentExpressionAttribute` functionality.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Guard/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Guard?logo=nuget&style=for-the-badge" alt="NetEvolve.Guard Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks/"><b>NetEvolve.HealthChecks</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains general application HealthChecks.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Abstractions/"><b>NetEvolve.HealthChecks.Abstractions</b></a> ❌<b>DEPRECATED</b><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains abstract implementations for the `NetEvolve.HealthChecks`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Abstractions/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Abstractions?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Abstractions Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.ActiveMq/"><b>NetEvolve.HealthChecks.Apache.ActiveMq</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Apache ActiveMq, based on the NuGet package `Apache.NMS.ActiveMQ`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.ActiveMq/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Apache.ActiveMq?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Apache.ActiveMq Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.Kafka/"><b>NetEvolve.HealthChecks.Apache.Kafka</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Apache Kafka, based on the NuGet package `Confluent.Kafka`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.Kafka/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Apache.Kafka?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Apache.Kafka Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.Pulsar/"><b>NetEvolve.HealthChecks.Apache.Pulsar</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Pulsar, based on the nuget package `DotPulsar`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.Pulsar/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Apache.Pulsar?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Apache.Pulsar Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.RocketMQ/"><b>NetEvolve.HealthChecks.Apache.RocketMQ</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Apache RocketMQ, based on the NuGet package `RocketMQ.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.RocketMQ/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Apache.RocketMQ?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Apache.RocketMQ Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.Solr/"><b>NetEvolve.HealthChecks.Apache.Solr</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Apache Solr, based on the NuGet package `SolrNet.Core`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Apache.Solr/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Apache.Solr?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Apache.Solr Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.ArangoDb/"><b>NetEvolve.HealthChecks.ArangoDb</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for ArangoDb, based on the nuget package `ArangoDBNetStandard`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.ArangoDb/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.ArangoDb?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.ArangoDb Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS/"><b>NetEvolve.HealthChecks.AWS</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for various AWS services.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.AWS?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.AWS Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.CloudWatch/"><b>NetEvolve.HealthChecks.AWS.CloudWatch</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for AWS CloudWatch.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.CloudWatch/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.AWS.CloudWatch?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.AWS.CloudWatch Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.DynamoDB/"><b>NetEvolve.HealthChecks.AWS.DynamoDB</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for AWS DynamoDB.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.DynamoDB/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.AWS.DynamoDB?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.AWS.DynamoDB Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.EC2/"><b>NetEvolve.HealthChecks.AWS.EC2</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for AWS Elastic Compute Cloud (EC2).</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.EC2/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.AWS.EC2?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.AWS.EC2 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.S3/"><b>NetEvolve.HealthChecks.AWS.S3</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for AWS Simple Storage Service (S3).</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.S3/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.AWS.S3?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.AWS.S3 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.SNS/"><b>NetEvolve.HealthChecks.AWS.SNS</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for AWS Simple Notification Service (SNS).</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.SNS/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.AWS.SNS?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.AWS.SNS Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.SQS/"><b>NetEvolve.HealthChecks.AWS.SQS</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for AWS Simple Queue Service (SQS).</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.AWS.SQS/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.AWS.SQS?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.AWS.SQS Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure/"><b>NetEvolve.HealthChecks.Azure</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for various Azure services.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.ApplicationInsights/"><b>NetEvolve.HealthChecks.Azure.ApplicationInsights</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure Application Insights.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.ApplicationInsights/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.ApplicationInsights?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.ApplicationInsights Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Blobs/"><b>NetEvolve.HealthChecks.Azure.Blobs</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure Blob Storage.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Blobs/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.Blobs?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.Blobs Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.CosmosDB/"><b>NetEvolve.HealthChecks.Azure.CosmosDB</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure Cosmos DB.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.CosmosDB/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.CosmosDB?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.CosmosDB Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.EventHubs/"><b>NetEvolve.HealthChecks.Azure.EventHubs</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure Event Hubs.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.EventHubs/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.EventHubs?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.EventHubs Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.KeyVault/"><b>NetEvolve.HealthChecks.Azure.KeyVault</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure Key Vault.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.KeyVault/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.KeyVault?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.KeyVault Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Kusto/"><b>NetEvolve.HealthChecks.Azure.Kusto</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure Kusto.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Kusto/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.Kusto?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.Kusto Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Queues/"><b>NetEvolve.HealthChecks.Azure.Queues</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure Queue Storage.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Queues/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.Queues?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.Queues Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Search/"><b>NetEvolve.HealthChecks.Azure.Search</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure AI Search.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Search/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.Search?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.Search Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.ServiceBus/"><b>NetEvolve.HealthChecks.Azure.ServiceBus</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure Service Bus.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.ServiceBus/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.ServiceBus?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.ServiceBus Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Tables/"><b>NetEvolve.HealthChecks.Azure.Tables</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Azure Table Storage.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Azure.Tables/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Azure.Tables?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Azure.Tables Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Cassandra/"><b>NetEvolve.HealthChecks.Cassandra</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Cassandra, based on the nuget package `CassandraCSharpDriver`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Cassandra/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Cassandra?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Cassandra Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.ClickHouse/"><b>NetEvolve.HealthChecks.ClickHouse</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for ClickHouse, based on the nuget package `ClickHouse.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.ClickHouse/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.ClickHouse?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.ClickHouse Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.CockroachDb/"><b>NetEvolve.HealthChecks.CockroachDb</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for CockroachDb, based on the nuget package `Npgsql`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.CockroachDb/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.CockroachDb?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.CockroachDb Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Consul/"><b>NetEvolve.HealthChecks.Consul</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for HashiCorp Consul, based on the nuget package `Consul`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Consul/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Consul?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Consul Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Couchbase/"><b>NetEvolve.HealthChecks.Couchbase</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Couchbase, based on the nuget package `CouchbaseNetClient`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Couchbase/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Couchbase?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Couchbase Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.CouchDb/"><b>NetEvolve.HealthChecks.CouchDb</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for CouchDb, based on the nuget package `MyCouch`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.CouchDb/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.CouchDb?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.CouchDb Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Dapr/"><b>NetEvolve.HealthChecks.Dapr</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Dapr, based on the nuget package `Dapr.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Dapr/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Dapr?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Dapr Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.DB2/"><b>NetEvolve.HealthChecks.DB2</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Db2, based on the nuget packages `Net.IBM.Data.Db2` (Windows), `Net.IBM.Data.Db2-lnx` (Linux) and `Net.IBM.Data.Db2-osx` (OSX).</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.DB2/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.DB2?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.DB2 Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.DuckDB/"><b>NetEvolve.HealthChecks.DuckDB</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for DuckDB, based on the nuget package `DuckDB.NET.Data`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.DuckDB/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.DuckDB?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.DuckDB Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Elasticsearch/"><b>NetEvolve.HealthChecks.Elasticsearch</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Elasticsearch, based on the nuget package `Elastic.Clients.Elasticsearch`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Elasticsearch/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Elasticsearch?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Elasticsearch Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.EventStoreDb/"><b>NetEvolve.HealthChecks.EventStoreDb</b></a> ❌<b>DEPRECATED</b><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for EventStoreDb, based on the nuget package `EventStore.Client.Grpc.Streams`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.EventStoreDb/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.EventStoreDb?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.EventStoreDb Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Firebird/"><b>NetEvolve.HealthChecks.Firebird</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Firebird, based on the nuget package `FirebirdSql.Data.FirebirdClient`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Firebird/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Firebird?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Firebird Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Garnet/"><b>NetEvolve.HealthChecks.Garnet</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Microsoft Garnet, based on the NuGet package `Microsoft.Garnet`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Garnet/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Garnet?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Garnet Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.GCP/"><b>NetEvolve.HealthChecks.GCP</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for various GCP services.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.GCP/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.GCP?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.GCP Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.GCP.BigQuery/"><b>NetEvolve.HealthChecks.GCP.BigQuery</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Google Cloud Platform BigQuery, based on the nuget package `Google.Cloud.BigQuery.V2`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.GCP.BigQuery/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.GCP.BigQuery?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.GCP.BigQuery Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.GCP.Bigtable/"><b>NetEvolve.HealthChecks.GCP.Bigtable</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Google Cloud Platform Bigtable, based on the nuget package `Google.Cloud.Bigtable.Admin.V2`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.GCP.Bigtable/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.GCP.Bigtable?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.GCP.Bigtable Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.GCP.Firestore/"><b>NetEvolve.HealthChecks.GCP.Firestore</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Google Cloud Platform Firestore, based on the nuget package `Google.Cloud.Firestore`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.GCP.Firestore/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.GCP.Firestore?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.GCP.Firestore Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.GCP.PubSub/"><b>NetEvolve.HealthChecks.GCP.PubSub</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Google Cloud Platform Pub/Sub, based on the nuget package `Google.Cloud.PubSub.V1`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.GCP.PubSub/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.GCP.PubSub?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.GCP.PubSub Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Http/"><b>NetEvolve.HealthChecks.Http</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for HTTP endpoints, based on the HttpClient.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Http/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Http?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Http Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.IbmMQ/"><b>NetEvolve.HealthChecks.IbmMQ</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for IBM MQ, based on the nuget package `IBMMQDotnetClient`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.IbmMQ/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.IbmMQ?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.IbmMQ Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.InfluxDB/"><b>NetEvolve.HealthChecks.InfluxDB</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for InfluxDB, based on the nuget package `InfluxDB.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.InfluxDB/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.InfluxDB?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.InfluxDB Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.JanusGraph/"><b>NetEvolve.HealthChecks.JanusGraph</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for JanusGraph, based on the nuget package `JanusGraph.Net`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.JanusGraph/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.JanusGraph?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.JanusGraph Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Keycloak/"><b>NetEvolve.HealthChecks.Keycloak</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for the Keycloak service, based on the nuget package `Keycloak.Net.Core`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Keycloak/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Keycloak?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Keycloak Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Kubernetes/"><b>NetEvolve.HealthChecks.Kubernetes</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Kubernetes, based on the nuget package `KubernetesClient`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Kubernetes/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Kubernetes?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Kubernetes Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.KurrentDb/"><b>NetEvolve.HealthChecks.KurrentDb</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for KurrentDb, based on the nuget package `KurrentDB.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.KurrentDb/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.KurrentDb?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.KurrentDb Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.LiteDB/"><b>NetEvolve.HealthChecks.LiteDB</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for litedb, based on the nuget package `LiteDB`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.LiteDB/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.LiteDB?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.LiteDB Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MariaDb/"><b>NetEvolve.HealthChecks.MariaDb</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for MariaDb, based on the nuget package `MySqlConnector`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MariaDb/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.MariaDb?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.MariaDb Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Meilisearch/"><b>NetEvolve.HealthChecks.Meilisearch</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Meilisearch, based on the nuget package `MeiliSearch`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Meilisearch/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Meilisearch?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Meilisearch Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Milvus/"><b>NetEvolve.HealthChecks.Milvus</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Milvus, based on the nuget package `Milvus.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Milvus/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Milvus?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Milvus Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Minio/"><b>NetEvolve.HealthChecks.Minio</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Minio, based on the nuget package `Minio`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Minio/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Minio?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Minio Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MongoDb/"><b>NetEvolve.HealthChecks.MongoDb</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for MongoDb, based on the nuget package `MongoDB.Driver`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MongoDb/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.MongoDb?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.MongoDb Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Mosquitto/"><b>NetEvolve.HealthChecks.Mosquitto</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Mosquitto, based on the nuget package `MQTTnet`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Mosquitto/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Mosquitto?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Mosquitto Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MySql/"><b>NetEvolve.HealthChecks.MySql</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for MySql, based on the nuget package `MySql.Data`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MySql/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.MySql?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.MySql Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MySql.Connector/"><b>NetEvolve.HealthChecks.MySql.Connector</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for MySql, based on the nuget package `MySqlConnector`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MySql.Connector/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.MySql.Connector?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.MySql.Connector Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MySql.Devart/"><b>NetEvolve.HealthChecks.MySql.Devart</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for MySql, based on the nuget package `Devart.Data.MySql`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.MySql.Devart/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.MySql.Devart?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.MySql.Devart Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.NATS/"><b>NetEvolve.HealthChecks.NATS</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for NATS, based on the nuget package `NATS.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.NATS/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.NATS?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.NATS Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Neo4j/"><b>NetEvolve.HealthChecks.Neo4j</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Neo4j, based on the nuget package `Neo4j.Driver`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Neo4j/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Neo4j?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Neo4j Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Npgsql/"><b>NetEvolve.HealthChecks.Npgsql</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for PostgreSQL, based on the nuget package `Npgsql`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Npgsql/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Npgsql?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Npgsql Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Npgsql.Devart/"><b>NetEvolve.HealthChecks.Npgsql.Devart</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for PostgreSQL, based on the nuget package `Devart.Data.PostgreSql`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Npgsql.Devart/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Npgsql.Devart?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Npgsql.Devart Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Odbc/"><b>NetEvolve.HealthChecks.Odbc</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for ODBC data sources, based on the nuget package `System.Data.Odbc`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Odbc/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Odbc?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Odbc Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Ollama/"><b>NetEvolve.HealthChecks.Ollama</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Ollama, based on the NuGet package `OllamaSharp`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Ollama/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Ollama?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Ollama Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.OpenSearch/"><b>NetEvolve.HealthChecks.OpenSearch</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for OpenSearch, based on the nuget package `OpenSearch.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.OpenSearch/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.OpenSearch?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.OpenSearch Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Oracle/"><b>NetEvolve.HealthChecks.Oracle</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Oracle Databases, based on the nuget package `Oracle.ManagedDataAccess.Core`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Oracle/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Oracle?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Oracle Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Oracle.Devart/"><b>NetEvolve.HealthChecks.Oracle.Devart</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Oracle Databases, based on the nuget package `Devart.Data.Oracle`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Oracle.Devart/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Oracle.Devart?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Oracle.Devart Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Qdrant/"><b>NetEvolve.HealthChecks.Qdrant</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Qdrant Vector database, based on the nuget package `Qdrant.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Qdrant/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Qdrant?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Qdrant Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.QuestDB/"><b>NetEvolve.HealthChecks.QuestDB</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for QuestDB, based on the nuget package `net-questdb-client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.QuestDB/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.QuestDB?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.QuestDB Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.RabbitMQ/"><b>NetEvolve.HealthChecks.RabbitMQ</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for RabbitMQ, based on the nuget package `RabbitMQ.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.RabbitMQ/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.RabbitMQ?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.RabbitMQ Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.RavenDb/"><b>NetEvolve.HealthChecks.RavenDb</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for RavenDb, based on the nuget package `RavenDB.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.RavenDb/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.RavenDb?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.RavenDb Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Redis/"><b>NetEvolve.HealthChecks.Redis</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Redis, based on the NuGet package `StackExchange.Redis`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Redis/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Redis?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Redis Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Redpanda/"><b>NetEvolve.HealthChecks.Redpanda</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Redpanda, based on the NuGet package `Confluent.Kafka`. This is a temporary measure; if a dedicated Redpanda client is provided in the future, we will use it immediately.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Redpanda/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Redpanda?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Redpanda Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Seq/"><b>NetEvolve.HealthChecks.Seq</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for the Seq service, based on the nuget package `Seq.Api`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.Seq/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.Seq?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.Seq Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlEdge/"><b>NetEvolve.HealthChecks.SqlEdge</b></a> ❌<b>DEPRECATED</b><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for SqlEdge, based on the nuget package `Microsoft.Data.SqlClient`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlEdge/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.SqlEdge?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.SqlEdge Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SQLite/"><b>NetEvolve.HealthChecks.SQLite</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for SQLite, based on the nuget package `Microsoft.Data.Sqlite`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SQLite/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.SQLite?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.SQLite Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SQLite.Devart/"><b>NetEvolve.HealthChecks.SQLite.Devart</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for SQLite, based on the nuget package `Devart.Data.SQLite`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SQLite.Devart/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.SQLite.Devart?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.SQLite.Devart Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SQLite.Legacy/"><b>NetEvolve.HealthChecks.SQLite.Legacy</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for SQLite, based on the nuget package `System.Data.Sqlite`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SQLite.Legacy/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.SQLite.Legacy?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.SQLite.Legacy Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlServer/"><b>NetEvolve.HealthChecks.SqlServer</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Microsoft SqlServer, based on the nuget package `Microsoft.Data.SqlClient`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlServer/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.SqlServer?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.SqlServer Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlServer.Devart/"><b>NetEvolve.HealthChecks.SqlServer.Devart</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Microsoft SqlServer, based on the nuget package `Devart.Data.SqlServer`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlServer.Devart/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.SqlServer.Devart?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.SqlServer.Devart Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlServer.Legacy/"><b>NetEvolve.HealthChecks.SqlServer.Legacy</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for Microsoft SqlServer, based on the nuget package `System.Data.SqlClient`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.SqlServer.Legacy/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.SqlServer.Legacy?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.SqlServer.Legacy Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.ApplicationInsights/"><b>NetEvolve.HealthPublishers.ApplicationInsights</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to Azure Application Insights.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.ApplicationInsights/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.ApplicationInsights?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.ApplicationInsights Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.AWS.CloudWatch/"><b>NetEvolve.HealthPublishers.AWS.CloudWatch</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that publishes health report results as metrics to Amazon CloudWatch, using AWSSDK.CloudWatch.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.AWS.CloudWatch/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.AWS.CloudWatch?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.AWS.CloudWatch Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Datadog/"><b>NetEvolve.HealthPublishers.Datadog</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to Datadog as events.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Datadog/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Datadog?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Datadog Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Elasticsearch/"><b>NetEvolve.HealthPublishers.Elasticsearch</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that indexes health report results as documents into an Elasticsearch cluster, using Elastic.Clients.Elasticsearch.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Elasticsearch/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Elasticsearch?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Elasticsearch Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Email/"><b>NetEvolve.HealthPublishers.Email</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that sends health report results via SMTP email.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Email/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Email?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Email Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.MicrosoftTeams/"><b>NetEvolve.HealthPublishers.MicrosoftTeams</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to a Microsoft Teams channel via an incoming webhook or workflow connector.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.MicrosoftTeams/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.MicrosoftTeams?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.MicrosoftTeams Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.OpenTelemetry/"><b>NetEvolve.HealthPublishers.OpenTelemetry</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that reports health report results as .NET metrics (System.Diagnostics.Metrics), consumable by any OpenTelemetry-compatible collector.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.OpenTelemetry/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.OpenTelemetry?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.OpenTelemetry Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Opsgenie/"><b>NetEvolve.HealthPublishers.Opsgenie</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that creates and closes Opsgenie alerts based on health report results.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Opsgenie/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Opsgenie?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Opsgenie Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.PagerDuty/"><b>NetEvolve.HealthPublishers.PagerDuty</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that triggers and resolves PagerDuty incidents based on health report results, using the Events API v2.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.PagerDuty/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.PagerDuty?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.PagerDuty Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Prometheus.Metrics/"><b>NetEvolve.HealthPublishers.Prometheus.Metrics</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that updates prometheus-net Gauge metrics in an in-process CollectorRegistry, reflecting the latest health report results, for scraping via prometheus-net's own ASP.NET Core middleware.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Prometheus.Metrics/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Prometheus.Metrics?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Prometheus.Metrics Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Prometheus.PushGateway/"><b>NetEvolve.HealthPublishers.Prometheus.PushGateway</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to a Prometheus Pushgateway instance as metrics.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Prometheus.PushGateway/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Prometheus.PushGateway?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Prometheus.PushGateway Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Seq/"><b>NetEvolve.HealthPublishers.Seq</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to a Seq server.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Seq/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Seq?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Seq Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Slack/"><b>NetEvolve.HealthPublishers.Slack</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to a Slack channel via an incoming webhook.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Slack/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Slack?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Slack Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Splunk/"><b>NetEvolve.HealthPublishers.Splunk</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to Splunk via the HTTP Event Collector (HEC).</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Splunk/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Splunk?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Splunk Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Webhook/"><b>NetEvolve.HealthPublishers.Webhook</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results as JSON to a user-configured webhook endpoint.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Webhook/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Webhook?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Webhook Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Abstractions/"><b>NetEvolve.Http.Correlation.Abstractions</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></sup><br/>
+        <p>Abstractions for the uniform use of Http.Correlation. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Abstractions/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Http.Correlation.Abstractions?logo=nuget&style=for-the-badge" alt="NetEvolve.Http.Correlation.Abstractions Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.AspNetCore/"><b>NetEvolve.Http.Correlation.AspNetCore</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></sup><br/>
+        <p>Implementation of AspNetCore middleware to use Http.Correlation. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.AspNetCore/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Http.Correlation.AspNetCore?logo=nuget&style=for-the-badge" alt="NetEvolve.Http.Correlation.AspNetCore Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Azure.Functions/"><b>NetEvolve.Http.Correlation.Azure.Functions</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></sup><br/>
+        <p>Implementation of Azure.Functions middleware to use Http.Correlation. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Azure.Functions/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Http.Correlation.Azure.Functions?logo=nuget&style=for-the-badge" alt="NetEvolve.Http.Correlation.Azure.Functions Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.HttpClient/"><b>NetEvolve.Http.Correlation.HttpClient</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></sup><br/>
+        <p>Implementation of Http correlation handler to forward CorrelationId. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.HttpClient/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Http.Correlation.HttpClient?logo=nuget&style=for-the-badge" alt="NetEvolve.Http.Correlation.HttpClient Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.TestGenerator/"><b>NetEvolve.Http.Correlation.TestGenerator</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></sup><br/>
+        <p>Implementation of an IHttpCorrelationIdProvider for test cases. Based on the primary Http header `X-Correlation-ID` as well as the alternative Http header `X-Request-ID`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.TestGenerator/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Http.Correlation.TestGenerator?logo=nuget&style=for-the-badge" alt="NetEvolve.Http.Correlation.TestGenerator Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Ulid/"><b>NetEvolve.Http.Correlation.Ulid</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></sup><br/>
+        <p>Implementation of an IHttpCorrelationIdProvider based on NuGet package `Ulid`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Ulid/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Http.Correlation.Ulid?logo=nuget&style=for-the-badge" alt="NetEvolve.Http.Correlation.Ulid Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Ulid.ByteAether/"><b>NetEvolve.Http.Correlation.Ulid.ByteAether</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/http.correlation">https://github.com/dailydevops/http.correlation</a></sup><br/>
+        <p>Implementation of an IHttpCorrelationIdProvider based on NuGet package `ByteAether.Ulid`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Http.Correlation.Ulid.ByteAether/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Http.Correlation.Ulid.ByteAether?logo=nuget&style=for-the-badge" alt="NetEvolve.Http.Correlation.Ulid.ByteAether Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Logging.Abstractions/"><b>NetEvolve.Logging.Abstractions</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/logging.abstractions.git">https://github.com/dailydevops/logging.abstractions.git</a></sup><br/>
+        <p>Contains several abstractions for logging, based on the nuget package `Microsoft.Extensions.Logging.Abstractions`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Logging.Abstractions/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Logging.Abstractions?logo=nuget&style=for-the-badge" alt="NetEvolve.Logging.Abstractions Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Logging.Measurement/"><b>NetEvolve.Logging.Measurement</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/extensions.logging.measurement">https://github.com/dailydevops/extensions.logging.measurement</a></sup><br/>
+        <p>Extensions for `ILogger` implementations to measure execution times for a named scope.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Logging.Measurement/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Logging.Measurement?logo=nuget&style=for-the-badge" alt="NetEvolve.Logging.Measurement Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Logging.XUnit/"><b>NetEvolve.Logging.XUnit</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/logging.xunit.git">https://github.com/dailydevops/logging.xunit.git</a></sup><br/>
+        <p>Extensions for `ILogger` implementations to log messages to xUnit test output.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Logging.XUnit/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Logging.XUnit?logo=nuget&style=for-the-badge" alt="NetEvolve.Logging.XUnit Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ProjectBuilders/"><b>NetEvolve.ProjectBuilders</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/projectbuilders">https://github.com/dailydevops/projectbuilders</a></sup><br/>
+        <p>Allows you to create a temporary .NET project with all possible settings and few bells and whistles.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ProjectBuilders/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.ProjectBuilders?logo=nuget&style=for-the-badge" alt="NetEvolve.ProjectBuilders Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ProjectBuilders.TUnit/"><b>NetEvolve.ProjectBuilders.TUnit</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/projectbuilders">https://github.com/dailydevops/projectbuilders</a></sup><br/>
+        <p>Allows you to create a temporary .NET project with all possible settings and few bells and whistles.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ProjectBuilders.TUnit/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.ProjectBuilders.TUnit?logo=nuget&style=for-the-badge" alt="NetEvolve.ProjectBuilders.TUnit Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ProjectBuilders.XUnit/"><b>NetEvolve.ProjectBuilders.XUnit</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/projectbuilders">https://github.com/dailydevops/projectbuilders</a></sup><br/>
+        <p>Allows you to create a temporary .NET project with all possible settings and few bells and whistles.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.ProjectBuilders.XUnit/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.ProjectBuilders.XUnit?logo=nuget&style=for-the-badge" alt="NetEvolve.ProjectBuilders.XUnit Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse/"><b>NetEvolve.Pulse</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Pulse - A high-performance, lightweight CQRS mediator library specifically designed for modern ASP.NET Core applications. Pulse implements the mediator pattern to facilitate clean, decoupled communication between application components through commands, queries, and events. The library provides automatic handler discovery and registration through dependency injection, ensuring type-safe message dispatching with minimal boilerplate code. Key features include: comprehensive interceptor pipeline for cross-cutting concerns (validation, logging, metrics, caching), scoped lifetime management for thread-safe operations within HTTP request boundaries, built-in support for async/await patterns, zero-allocation optimizations for high-throughput scenarios, and seamless integration with ASP.NET Core's service container. Pulse enforces CQRS principles by requiring exactly one handler per command/query while supporting multiple event handlers for domain event broadcasting. Ideal for microservices, modular monoliths, vertical slice architectures, and any application requiring clear separation between read and write operations. The library promotes testability through its abstraction-based design and enables building maintainable, scalable applications following clean architecture and domain-driven design principles.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AspNetCore/"><b>NetEvolve.Pulse.AspNetCore</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>ASP.NET Core Minimal API integration for the Pulse CQRS mediator. Provides IEndpointRouteBuilder extension methods that map mediator commands and queries directly to HTTP endpoints, eliminating boilerplate endpoint handlers that only forward to IMediator. Commands are mapped using the CommandHttpMethod enum (Post, Put, Patch, Delete) with full CancellationToken propagation and OpenAPI compatibility. Queries are mapped to GET endpoints with route and query-string binding via [AsParameters].</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AspNetCore/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.AspNetCore?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.AspNetCore Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AzureQueueStorage/"><b>NetEvolve.Pulse.AzureQueueStorage</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Azure Queue Storage transport for the Pulse CQRS mediator outbox. Delivers outbox messages to Azure Queue Storage queues using the Azure SDK, supporting single and batched sends with managed identity or connection string authentication.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AzureQueueStorage/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.AzureQueueStorage?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.AzureQueueStorage Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AzureServiceBus/"><b>NetEvolve.Pulse.AzureServiceBus</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Azure Service Bus transport for the Pulse CQRS mediator outbox. Delivers outbox messages directly to Azure Service Bus queues or topics using the Azure SDK, supporting single and batched sends with health checks for the target entity.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AzureServiceBus/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.AzureServiceBus?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.AzureServiceBus Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.CosmosDb/"><b>NetEvolve.Pulse.CosmosDb</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Azure Cosmos DB persistence provider for the Pulse outbox pattern using the official Microsoft.Azure.Cosmos SDK. Provides CosmosDbOutboxRepository implementing IOutboxRepository with optimistic concurrency via ETag-based conditional patch operations. Supports configurable database name, container name, and TTL-based automatic cleanup for completed and dead-letter documents. Designed for document-oriented architectures on Azure Cosmos DB that require the outbox pattern without introducing a relational database dependency.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.CosmosDb/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.CosmosDb?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.CosmosDb Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Dapr/"><b>NetEvolve.Pulse.Dapr</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Dapr pub/sub transport for the Pulse CQRS mediator outbox. Publishes outbox messages to Dapr topics via DaprClient, enabling integration with any message broker supported by Dapr (Redis, Kafka, Azure Service Bus, RabbitMQ, etc.). Supports single message publishing and batch publishing using Dapr's bulk publish API. Includes health checks via DaprClient.CheckHealthAsync and configurable topic name resolution from event types.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Dapr/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Dapr?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Dapr Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.EntityFramework/"><b>NetEvolve.Pulse.EntityFramework</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Provider-agnostic Entity Framework Core persistence for the Pulse outbox pattern. Provides IOutboxDbContext interface, OutboxMessageConfiguration for fluent mapping, EntityFrameworkOutboxRepository implementing IOutboxRepository, and EntityFrameworkEventOutbox participating in ambient DbContext transactions. Works with any EF Core database provider (SQL Server, PostgreSQL, SQLite, etc.) - users bring their own provider and generate migrations. Uses the canonical outbox schema ensuring interchangeability with plain ADO.NET providers. Designed for rapid development with full EF Core features including change tracking, LINQ queries, and migration support.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.EntityFramework/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.EntityFramework?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.EntityFramework Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Extensibility/"><b>NetEvolve.Pulse.Extensibility</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Extensibility contracts and abstractions for the Pulse CQRS mediator library. This package defines the core interfaces and abstractions required to implement the mediator pattern with Command Query Responsibility Segregation (CQRS) principles. It provides strongly-typed contracts for commands (ICommand, ICommandHandler), queries (IQuery), events (IEvent, IEventHandler), and request/response patterns (IRequest, IRequestHandler). The extensibility model includes interceptor interfaces (ICommandInterceptor, IQueryInterceptor, IEventInterceptor, IRequestInterceptor) for implementing cross-cutting concerns such as validation, logging, caching, authentication, and transaction management. This package is designed to be framework-agnostic and serves as the foundation for building testable, maintainable, and decoupled application architectures. Perfect for domain-driven design (DDD), clean architecture, and hexagonal architecture patterns where business logic needs to be isolated from infrastructure concerns.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Extensibility/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Extensibility?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Extensibility Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.FluentValidation/"><b>NetEvolve.Pulse.FluentValidation</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>FluentValidation interceptor for the Pulse CQRS mediator library. Automatically validates commands and queries before they reach their handler using FluentValidation validators registered in the DI container, enforcing business invariants at the pipeline boundary without duplicating validation logic inside handlers.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.FluentValidation/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.FluentValidation?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.FluentValidation Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.HttpCorrelation/"><b>NetEvolve.Pulse.HttpCorrelation</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>HTTP correlation ID propagation interceptors for the Pulse CQRS mediator library. Automatically propagates the HTTP correlation ID from IHttpCorrelationAccessor into every IRequest and IEvent dispatched through the mediator, eliminating the need to manually copy correlation IDs at every call site.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.HttpCorrelation/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.HttpCorrelation?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.HttpCorrelation Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Kafka/"><b>NetEvolve.Pulse.Kafka</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Apache Kafka transport for the Pulse CQRS mediator outbox. Delivers outbox messages directly to Kafka topics using the Confluent.Kafka producer, supporting single and batched sends with health checks via cluster metadata.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Kafka/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Kafka?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Kafka Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.MongoDB/"><b>NetEvolve.Pulse.MongoDB</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>MongoDB persistence provider for the Pulse outbox pattern using the official MongoDB C# driver. Provides MongoDbOutboxRepository implementing IOutboxRepository with FindOneAndUpdateAsync for atomic message claiming and safe concurrent polling. Supports configurable database name and collection name. Requires IMongoClient to be registered in the dependency injection container by the caller. Designed for document-oriented architectures where the outbox participates in the same MongoDB database as domain aggregates.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.MongoDB/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.MongoDB?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.MongoDB Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.MySql/"><b>NetEvolve.Pulse.MySql</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>MySQL persistence provider for the Pulse outbox and idempotency patterns using plain ADO.NET. Provides MySqlOutboxRepository implementing IOutboxRepository with optimized MySQL queries, transaction support via MySqlTransaction enlistment, and schema scripts for table creation. Also provides MySqlIdempotencyKeyRepository implementing IIdempotencyKeyRepository for at-most-once command processing. Uses SELECT ... FOR UPDATE SKIP LOCKED (MySQL 8.0+) for concurrent polling safety. Stores GUIDs as BINARY(16) and DateTimeOffset values as BIGINT (UTC ticks) for interoperability with the Entity Framework MySQL provider. Requires MySQL 8.0 or later. The Schema option is not applicable to MySQL; tables are created in the active database specified in the connection string.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.MySql/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.MySql?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.MySql Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Polly/"><b>NetEvolve.Pulse.Polly</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Polly-based resilience policies for the Pulse CQRS mediator library. This package provides built-in interceptors for integrating Polly v8 resilience strategies including retry policies, circuit breakers, bulkhead isolation, timeout policies, and fallback strategies. The interceptors seamlessly integrate with the Pulse mediator pipeline through the IRequestInterceptor and IEventInterceptor interfaces, allowing you to apply resilience patterns to command handlers, query handlers, and event handlers. Supports both per-handler policy configuration and global policy application across all requests and events. Includes fluent API extensions for IMediatorBuilder to simplify policy registration and configuration. Perfect for building robust, fault-tolerant applications that gracefully handle transient failures, cascading failures, and resource exhaustion scenarios in distributed systems and microservice architectures.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Polly/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Polly?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Polly Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.PostgreSql/"><b>NetEvolve.Pulse.PostgreSql</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>PostgreSQL persistence provider for the Pulse outbox and idempotency patterns using plain ADO.NET. Provides PostgreSqlOutboxRepository implementing IOutboxRepository with optimized PostgreSQL queries, transaction support via NpgsqlTransaction enlistment, and schema scripts for table creation. Also provides PostgreSqlIdempotencyKeyRepository implementing IIdempotencyKeyRepository for at-most-once command processing. Uses FOR UPDATE SKIP LOCKED for concurrent polling safety. Supports configurable schema and table names for multi-tenant scenarios. Uses the canonical schemas ensuring interchangeability with Entity Framework provider. Designed for high-performance microservices requiring reliable event delivery with PostgreSQL as the backing store.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.PostgreSql/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.PostgreSql?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.PostgreSql Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.RabbitMQ/"><b>NetEvolve.Pulse.RabbitMQ</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>RabbitMQ transport for the Pulse CQRS mediator outbox. Delivers outbox messages directly to RabbitMQ exchanges using the official .NET client, supporting single and batched sends with health checks for the broker connection.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.RabbitMQ/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.RabbitMQ?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.RabbitMQ Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Redis/"><b>NetEvolve.Pulse.Redis</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Redis idempotency provider for Pulse using StackExchange.Redis. Implements IIdempotencyStore with atomic SET NX EX operations for high-throughput, distributed idempotency enforcement without read-before-write round-trips.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Redis/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Redis?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Redis Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.SourceGeneration/"><b>NetEvolve.Pulse.SourceGeneration</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>Roslyn source generator for the Pulse CQRS mediator library. Automatically generates DI registration code for handler classes annotated with [PulseHandler], eliminating manual service registrations and catching missing or duplicate registrations at compile time.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.SourceGeneration/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.SourceGeneration?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.SourceGeneration Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.SQLite/"><b>NetEvolve.Pulse.SQLite</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>SQLite persistence provider for the Pulse outbox pattern using plain ADO.NET. Provides SQLiteOutboxRepository implementing IOutboxRepository with optimized SQL queries, WAL mode support, and BEGIN IMMEDIATE transactions for safe concurrent polling. Supports configurable table names for embedded and edge deployments. Designed for lightweight applications, CLI tools, IoT, and edge services that require the outbox pattern without external infrastructure dependencies.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.SQLite/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.SQLite?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.SQLite Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.SqlServer/"><b>NetEvolve.Pulse.SqlServer</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>SQL Server persistence provider for the Pulse outbox pattern using plain ADO.NET. Provides SqlServerOutboxRepository implementing IOutboxRepository with optimized T-SQL queries, transaction support via SqlTransaction enlistment, and schema scripts for table creation. Supports configurable schema and table names for multi-tenant scenarios. Uses the canonical outbox schema ensuring interchangeability with Entity Framework provider. Designed for high-performance microservices requiring reliable event delivery with SQL Server as the backing store.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.SqlServer/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.SqlServer?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.SqlServer Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.SequentialGuid/"><b>NetEvolve.SequentialGuid</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/sequentialguid">https://github.com/dailydevops/sequentialguid</a></sup><br/>
+        <p>Small project for the generation of sequential Guids.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.SequentialGuid/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.SequentialGuid?logo=nuget&style=for-the-badge" alt="NetEvolve.SequentialGuid Version" />
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div><!-- packages:end -->` markers in every `README.*` file that contains them.
 4. `peter-evans/create-pull-request` opens a PR titled `docs: Update nuget packages in README.md` if anything changed.
 
 Do not edit the content between the markers by hand, it is overwritten on the next run.
