@@ -1468,6 +1468,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Slack/"><b>NetEvolve.HealthPublishers.Slack</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results to a Slack channel via an incoming webhook.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Slack/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Slack?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Slack Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Splunk/"><b>NetEvolve.HealthPublishers.Splunk</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
         <p>Contains an IHealthCheckPublisher implementation that pushes health report results to Splunk via the HTTP Event Collector (HEC).</p>
@@ -1475,6 +1487,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Splunk/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Splunk?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Splunk Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Webhook/"><b>NetEvolve.HealthPublishers.Webhook</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthpublishers">https://github.com/dailydevops/healthpublishers</a></sup><br/>
+        <p>Contains an IHealthCheckPublisher implementation that pushes health report results as JSON to a user-configured webhook endpoint.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthPublishers.Webhook/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthPublishers.Webhook?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthPublishers.Webhook Version" />
         </a>
       </td>
     </tr>
