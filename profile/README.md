@@ -1684,6 +1684,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AspNetCore.Grpc/"><b>NetEvolve.Pulse.AspNetCore.Grpc</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
+        <p>ASP.NET Core gRPC integration for the Pulse CQRS mediator. Provides the PulseGrpcStreamService base class that forwards server-streaming RPCs to IMediator.StreamQueryAsync, writing every yielded item to the IServerStreamWriter with full client cancellation support, and the MapStreamQueryGrpc extension method that registers such services on an IEndpointRouteBuilder. Shipped as a separate package so the core ASP.NET Core integration stays free of any gRPC dependency.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AspNetCore.Grpc/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.AspNetCore.Grpc?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.AspNetCore.Grpc Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Pulse.AzureQueueStorage/"><b>NetEvolve.Pulse.AzureQueueStorage</b></a><br/>
         <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
         <p>Azure Queue Storage transport for the Pulse CQRS mediator outbox. Delivers outbox messages to Azure Queue Storage queues using the Azure SDK, supporting single and batched sends with managed identity or connection string authentication.</p>
