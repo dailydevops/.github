@@ -35,7 +35,7 @@ jobs:
       with:
         path: .
         token: ${{ secrets.GITHUB_TOKEN }}
-        commit-message: 'docs: Update nuget packages in README.md'
-        title: 'docs: Update nuget packages in README.md'
+        commit-message: 'chore: update nuget packages in README.md'
+        title: 'chore: update nuget packages in README.md'
         body: |
           This pull request updates the nuget packages in the README.md file.
