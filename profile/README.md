@@ -868,6 +868,18 @@ We try to keep our packages as simple as possible, focusing on a single task or 
     </tr>
     <tr>
       <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.InfluxDB/"><b>NetEvolve.HealthChecks.InfluxDB</b></a><br/>
+        <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
+        <p>Contains HealthChecks for InfluxDB, based on the nuget package `InfluxDB.Client`.</p>
+      </td>
+      <td>
+        <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.InfluxDB/">
+          <img src="https://img.shields.io/nuget/v/NetEvolve.HealthChecks.InfluxDB?logo=nuget&style=for-the-badge" alt="NetEvolve.HealthChecks.InfluxDB Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://www.nuget.org/packages/NetEvolve.HealthChecks.JanusGraph/"><b>NetEvolve.HealthChecks.JanusGraph</b></a><br/>
         <sup><a href="https://github.com/dailydevops/healthchecks">https://github.com/dailydevops/healthchecks</a></sup><br/>
         <p>Contains HealthChecks for JanusGraph, based on the nuget package `JanusGraph.Net`.</p>
@@ -1823,18 +1835,6 @@ We try to keep our packages as simple as possible, focusing on a single task or 
       <td>
         <a href="https://www.nuget.org/packages/NetEvolve.Pulse.Polly/">
           <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.Polly?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.Polly Version" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.PostgreSql/"><b>NetEvolve.Pulse.PostgreSql</b></a><br/>
-        <sup><a href="https://github.com/dailydevops/pulse">https://github.com/dailydevops/pulse</a></sup><br/>
-        <p>PostgreSQL persistence provider for the Pulse outbox and idempotency patterns using plain ADO.NET. Provides PostgreSqlOutboxRepository implementing IOutboxRepository with optimized PostgreSQL queries, transaction support via NpgsqlTransaction enlistment, and schema scripts for table creation. Also provides PostgreSqlIdempotencyKeyRepository implementing IIdempotencyKeyRepository for at-most-once command processing. Uses FOR UPDATE SKIP LOCKED for concurrent polling safety. Supports configurable schema and table names for multi-tenant scenarios. Uses the canonical schemas ensuring interchangeability with Entity Framework provider. Designed for high-performance microservices requiring reliable event delivery with PostgreSQL as the backing store.</p>
-      </td>
-      <td>
-        <a href="https://www.nuget.org/packages/NetEvolve.Pulse.PostgreSql/">
-          <img src="https://img.shields.io/nuget/v/NetEvolve.Pulse.PostgreSql?logo=nuget&style=for-the-badge" alt="NetEvolve.Pulse.PostgreSql Version" />
         </a>
       </td>
     </tr>
